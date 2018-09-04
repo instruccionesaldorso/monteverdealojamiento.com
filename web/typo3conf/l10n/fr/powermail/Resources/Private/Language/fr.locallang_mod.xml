@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="fr" type="array">
+			<label index="mlang_tabs_tab">Mails</label>
+			<label index="mlang_labels_tabdescr">Liste de tous les courriers électroniques présents dans la base de données. Il est possible de les filtrer et de les exporter au format CSV</label>
+			<label index="mlang_labels_tablabel">Liste Powermail</label>
+			<label index="pluginWizardTitle">Powermail</label>
+			<label index="pluginWizardDescription">Extension facile et puissante, optimisée pour les contributeurs. Powermail offre le stockage en base de données, la validation avancée des champs, la prévention avancée de spam, les statistiques utiles au marketing, et beaucoup de paramétrage et configurations.</label>
+		</languageKey>
+  </data>
+</T3locallangExt>

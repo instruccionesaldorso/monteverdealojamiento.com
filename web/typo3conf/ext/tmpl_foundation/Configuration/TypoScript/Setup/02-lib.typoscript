@@ -1,0 +1,27 @@
+# Setting up logo
+lib {
+    logo = IMAGE
+    logo {
+        file = EXT:tmpl_foundation/Resources/Public/Images/logo.png
+        file.width = 220
+        altText = {$plugin.tx_tmplfoundation.settings.tagline}
+        stdWrap.typolink {
+            parameter = 1
+            title = {$plugin.tx_tmplfoundation.settings.logoTitle}
+        }
+    }
+
+    parentTitle = TEXT
+    parentTitle {
+        data = leveltitle:1
+    }
+
+    parentIcon = TEXT
+    parentIcon.value = <i class="fi-home"></i>
+
+    getYear = TEXT
+    getYear{
+        data = date:Y
+    }
+}
+

@@ -1,0 +1,21 @@
+plugin.tx_tmplfoundation {
+    settings {
+        frontendPids {
+            home = 34
+            contact = 12
+            news = 11
+            prices = 10
+        }
+        logoTitle = Ir a la ṕagina de inicio
+        meta {
+            description = Monte Verde Cabañas y Camping
+            keywords = Monte Verde Cabañas y Camping
+        }
+        tagline = Monte Verde Cabañas y Camping
+    }
+    view {
+        templateRootPath = EXT:tmpl_foundation/Resources/Private/Templates/
+        partialRootPath = EXT:tmpl_foundation/Resources/Private/Partials/
+        layoutRootPath = EXT:tmpl_foundation/Resources/Private/Layouts/
+    }
+}

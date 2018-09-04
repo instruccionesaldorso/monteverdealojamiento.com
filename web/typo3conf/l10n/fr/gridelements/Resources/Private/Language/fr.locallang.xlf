@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-11-02T17:54:12Z" product-name="gridelements" target-language="fr">
+		<header/>
+		<body>
+			<trans-unit id="additionalStylesheet" xml:space="preserve" approved="yes">
+				<source>Path to folder containing additional stylesheets</source>
+			<target state="translated">Chemin vers le dossier contenant des feuilles de style additionnelles</target></trans-unit>
+			<trans-unit id="nestingInListModule" xml:space="preserve" approved="yes">
+				<source>Enable nesting in list module</source>
+			<target state="translated">Activer l'imbrication dans le module liste</target></trans-unit>
+		</body>
+	</file>
+</xliff>

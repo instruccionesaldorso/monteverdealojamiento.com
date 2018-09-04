@@ -1,0 +1,7 @@
+plugin.tx_basepowermail {
+    view {
+        templateRootPath = EXT:base_powermail/Resources/Private/Templates/
+        partialRootPath = EXT:base_powermail/Resources/Private/Partials/
+        layoutRootPath = EXT:base_powermail/Resources/Private/Layouts/
+    }
+}

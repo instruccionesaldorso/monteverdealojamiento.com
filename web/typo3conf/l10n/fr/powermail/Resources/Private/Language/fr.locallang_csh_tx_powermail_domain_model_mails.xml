@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="fr" type="array">
+			<label index="crdate.description">Heure de la création du courrier</label>
+			<label index="sender_mail.description">Email de l'expéditeur</label>
+			<label index="sender_name.description"/>
+			<label index="subject.description">Sujet du mail</label>
+			<label index="body.description">Toutes les valeurs d'entrée en un coup d'œil</label>
+			<label index="receiver_mail.description">Mail du destinataire</label>
+			<label index="form.description">Formulaire en relation</label>
+			<label index="answers.description">Toutes les réponses transférées</label>
+			<label index="feuser.description"/>
+			<label index="spam_factor.description"/>
+			<label index="time.description"/>
+			<label index="sender_ip.description"/>
+			<label index="user_agent.description"/>
+			<label index="marketing_referer_domain.description"/>
+			<label index="marketing_referer.description"/>
+			<label index="marketing_country.description"/>
+			<label index="marketing_mobile_device.description">L'utilisateur utilise un portable</label>
+			<label index="marketing_frontend_language.description">L'utilisateur a navigué dans ce TYPO3-Frontend-Language</label>
+			<label index="marketing_browser_language.description">Langue du navigateur des utilisateurs</label>
+			<label index="marketing_page_funnel.description"/>
+		</languageKey>
+  </data>
+</T3locallangExt>

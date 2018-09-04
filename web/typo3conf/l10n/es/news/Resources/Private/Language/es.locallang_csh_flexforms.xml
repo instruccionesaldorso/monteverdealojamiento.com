@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="es" type="array">
+			<label index="switchableControllerActions.description">Establezca la vista que desea mostrar</label>
+			<label index="switchableControllerActions.details"/>
+			<label index="settings.orderBy.description">Definir el campo de clasificación</label>
+			<label index="settings.orderDirection.description">Definir la direccion de ordenación</label>
+			<label index="settings.dateField.description">Seleccionar el campo el cual se ha usado para construir el menú principal</label>
+			<label index="settings.categories.description">Elija las categorías para definir qué noticias se muestran</label>
+			<label index="settings.categoryConjunction.description">Define como se usan las categorías seleccionadas</label>
+			<label index="settings.includeSubCategories.description">Incluir todas las subcategorias de las categorias seleccionadas tambien</label>
+			<label index="settings.categoryConjunction.details"/>
+			<label index="settings.archiveRestriction.description"/>
+			<label index="settings.timeRestriction.description"/>
+			<label index="settings.timeRestrictionHigh.description"/>
+			<label index="settings.topNewsRestriction.description"/>
+			<label index="settings.singleNews.description">Mostrar el único registro registro de noticias seleccionado.</label>
+			<label index="settings.previewHiddenRecords.description"/>
+			<label index="settings.startingpoint.description">Definir las páginas / carpetas del sistema que contienen los registros de noticias</label>
+			<label index="settings.recursive.description">Seleccione el nivel de recursión del punto de partida</label>
+			<label index="settings.detailPid.description"/>
+			<label index="settings.backPid.description">Seleccione la página que se utiliza para volver a la vista de detalle</label>
+			<label index="settings.listPid.description"/>
+			<label index="settings.limit.description"/>
+			<label index="settings.offset.description"/>
+			<label index="settings.topNewsFirst.description"/>
+			<label index="settings.disableOverrideDemand.description"/>
+			<label index="settings.tags.description">Filtrar por etiquetas determinadas</label>
+			<label index="settings.media.maxWidth.description">Altura máxima de los elementos multimedia (imágenes, videos, ...)</label>
+			<label index="settings.media.maxHeight.description">Altura máxima de los elementos multimedia (imágenes, videos, ...)</label>
+			<label index="settings.cropMaxCharacters.description"/>
+			<label index="settings.templateLayout.description"/>
+		</languageKey>
+  </data>
+</T3locallangExt>

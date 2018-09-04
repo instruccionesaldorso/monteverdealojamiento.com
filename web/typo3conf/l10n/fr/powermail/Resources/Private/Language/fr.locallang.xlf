@@ -1,0 +1,827 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-05-02T12:00:00Z" product-name="powermail" target-language="fr">
+		<header/>
+		<body>
+			<trans-unit id="pleaseChoose" approved="yes">
+				<source>Please choose...</source>
+			<target state="translated">Veuillez choisir...</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Veuillez choisir…</target></alt-trans></trans-unit>
+			<trans-unit id="back" approved="yes">
+				<source>Go back</source>
+			<target state="translated">Retour</target></trans-unit>
+			<trans-unit id="\In2code\Powermail\Domain\Model\Mail.senderName" approved="no">
+				<source>Senders Name</source>
+			<target state="needs-translation">Nom de l'expéditeur</target><note>91%</note></trans-unit>
+			<trans-unit id="\In2code\Powermail\Domain\Model\Mail.senderMail" approved="yes">
+				<source>Senders Email</source>
+			<target state="translated">Email de l'expéditeur</target><note>92%</note></trans-unit>
+			<trans-unit id="\In2code\Powermail\Domain\Model\Mail.subject" approved="yes">
+				<source>Subject</source>
+			<target state="translated">Sujet</target><note>100%</note></trans-unit>
+			<trans-unit id="\In2code\Powermail\Domain\Model\Mail.receiverMail" approved="no">
+				<source>Receivers Email</source>
+			<target state="needs-translation">Email du destinataire</target><note>93%</note></trans-unit>
+			<trans-unit id="\In2code\Powermail\Domain\Model\Mail.body" approved="yes">
+				<source>Email Text</source>
+			<target state="translated">Texte de l'email</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Texte de l'email</target></alt-trans></trans-unit>
+			<trans-unit id="\In2code\Powermail\Domain\Model\Mail.feuser" approved="yes">
+				<source>Frontend User</source>
+			<target state="translated">Utilisateur Frontend</target></trans-unit>
+			<trans-unit id="\In2code\Powermail\Domain\Model\Mail.senderIp" approved="yes">
+				<source>Senders IP-Address</source>
+			<target state="translated">Adresse IP de l'expéditeur</target></trans-unit>
+			<trans-unit id="\In2code\Powermail\Domain\Model\Mail.userAgent" approved="yes">
+				<source>Senders Browser-Signature</source>
+			<target state="translated">Navigateur de l'expéditeur</target></trans-unit>
+			<trans-unit id="\In2code\Powermail\Domain\Model\Mail.spamFactor" approved="yes">
+				<source>Spamfactor</source>
+			<target state="translated">Spamfactor</target></trans-unit>
+			<trans-unit id="\In2code\Powermail\Domain\Model\Mail.time" approved="yes">
+				<source>Time for form submit</source>
+			<target state="translated">Délai d'envoi du formulaire</target></trans-unit>
+			<trans-unit id="\In2code\Powermail\Domain\Model\Mail.uid" approved="yes">
+				<source>Uid</source>
+			<target state="translated">Uid</target></trans-unit>
+			<trans-unit id="\In2code\Powermail\Domain\Model\Mail.crdate" approved="yes">
+				<source>Date</source>
+			<target state="translated">Date</target></trans-unit>
+			<trans-unit id="\In2code\Powermail\Domain\Model\Mail.date" approved="yes">
+				<source>Date</source>
+			<target state="translated">Date</target></trans-unit>
+			<trans-unit id="\In2code\Powermail\Domain\Model\Mail.datetime" approved="yes">
+				<source>Time</source>
+			<target state="translated">Heure</target></trans-unit>
+			<trans-unit id="\In2code\Powermail\Domain\Model\Mail.marketingRefererDomain" approved="yes">
+				<source>Referer Domain</source>
+			<target state="translated">Domaine référant</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Domaine référant</target></alt-trans></trans-unit>
+			<trans-unit id="\In2code\Powermail\Domain\Model\Mail.marketingReferer" approved="yes">
+				<source>Referer URI</source>
+			<target state="translated">URL réferant</target><alt-trans xml:space="preserve" origin="rakel"><target>URI (referer)</target></alt-trans></trans-unit>
+			<trans-unit id="\In2code\Powermail\Domain\Model\Mail.marketingCountry" approved="yes">
+				<source>Visitors Country</source>
+			<target state="translated">Pays des visiteurs</target></trans-unit>
+			<trans-unit id="\In2code\Powermail\Domain\Model\Mail.marketingMobileDevice" approved="yes">
+				<source>Visitor uses a Mobile Device</source>
+			<target state="translated">Le visiteur utilise un mobile</target></trans-unit>
+			<trans-unit id="\In2code\Powermail\Domain\Model\Mail.marketingFrontendLanguage" approved="yes">
+				<source>Website Language</source>
+			<target state="translated">Langue du site web</target></trans-unit>
+			<trans-unit id="\In2code\Powermail\Domain\Model\Mail.marketingBrowserLanguage" approved="yes">
+				<source>Browser Language</source>
+			<target state="translated">Langue du navigateur</target></trans-unit>
+			<trans-unit id="\In2code\Powermail\Domain\Model\Mail.marketingPageFunnel" approved="yes">
+				<source>Page Funnel</source>
+			<target state="translated">Conteneur</target><alt-trans xml:space="preserve" origin="kminault"><target>Conteneur</target></alt-trans><alt-trans xml:space="preserve" origin="rakel"><target>Entonnoir</target></alt-trans></trans-unit>
+			<trans-unit id="\In2code\Powermail\Domain\Model\Mail.hidden" approved="yes">
+				<source>Disabled</source>
+			<target state="translated">Désactivé</target><alt-trans xml:space="preserve" origin="kminault"><target>Désactivé</target></alt-trans></trans-unit>
+			<trans-unit id="note_html" approved="yes">
+				<source>For security reasons, it is not allowed to show html tags by default. You can enable it with TypoScript (see powermail manual), but be aware, that editors can also add HTML and XSS.</source>
+			<target state="translated">Pour des raisons de sécurité, il n'est pas autorisé d'afficher les balises html par défaut. Vous pouvez les activer avec le TypoScript (voir le manuel PowerMail), mais soyez conscient que les éditeurs peuvent également ajouter du code HTML et XSS.</target></trans-unit>
+			<trans-unit id="mail_created" approved="yes">
+				<source>Mail successfully sent!</source>
+			<target state="translated">Le courrier a été envoyé avec succès !</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Le courrier a été envoyé avec succès !</target></alt-trans></trans-unit>
+			<trans-unit id="mail_created_failure" approved="yes">
+				<source>Failure, mail could not be sent!</source>
+			<target state="translated">Échec, le mail ne peut pas être envoyé !</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Échec, le mail ne peut pas être envoyé !</target></alt-trans><alt-trans xml:space="preserve" origin="oktopuce"><target>Échec, le mail ne peut pas être envoyé!</target></alt-trans></trans-unit>
+			<trans-unit id="confirmation_message" approved="yes">
+				<source>Are these values correct?</source>
+			<target state="translated">Ces valeurs sont-elles correctes ?</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Ces valeurs sont-elles correctes ?</target></alt-trans></trans-unit>
+			<trans-unit id="confirmation_next" approved="yes">
+				<source>Next</source>
+			<target state="translated">Suivant</target></trans-unit>
+			<trans-unit id="confirmation_prev" approved="yes">
+				<source>Previous</source>
+			<target state="translated">Précédent</target></trans-unit>
+			<trans-unit id="optin_seeMail" approved="yes">
+				<source>Please have a look into your mail account and confirm this action.</source>
+			<target state="translated">Veuillez regarder dans votre boîte mail et confirmez cette action.</target></trans-unit>
+			<trans-unit id="optin_subject" approved="yes">
+				<source>Please confirm your Email</source>
+			<target state="translated">Confirmer votre adresse email</target></trans-unit>
+			<trans-unit id="optin_mail_entries" approved="no">
+				<source>These are your given entries:</source>
+			<target state="needs-translation">Voici vos données saisies :</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Voici vos données saisies :</target></alt-trans></trans-unit>
+			<trans-unit id="optin_mail_link" approved="yes">
+				<source>Please confirm with a click:</source>
+			<target state="translated">Merci de confirmer par un clic :</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Merci de confirmer par un clic :</target></alt-trans></trans-unit>
+			<trans-unit id="optin_mail_confirm_failed" approved="yes">
+				<source>The given Link is not correct</source>
+			<target state="translated">Le lien donné n'est pas correct</target></trans-unit>
+			<trans-unit id="optin_mail_confirm_done" approved="yes">
+				<source>The mail was already confirmed</source>
+			<target state="translated">Le mail a déjà été confirmé</target></trans-unit>
+			<trans-unit id="error_mail_not_created" approved="yes">
+				<source>Error, Mail could not sent correctly!</source>
+			<target state="translated">Erreur, l'email ne peut pas être envoyé correctement !</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Erreur, l'email ne peut pas être envoyé correctement !</target></alt-trans></trans-unit>
+			<trans-unit id="error_no_typoscript" approved="yes">
+				<source>No TypoScript settings given. Admin, did you already include the "Main" static template?</source>
+			<target state="translated">Aucune configuration TypoScript trouvée. Admin as-tu inclus le gabarit statique "Main" ?</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Aucune configuration TypoScript trouvée. Admin, as-tu inclus le gabarit statique « Main » ?</target></alt-trans></trans-unit>
+			<trans-unit id="error_no_typoscript_pi2" approved="yes">
+				<source>No TypoScript settings given. Admin, did you already include the "Powermail_Frontend" static template?</source>
+			<target state="translated">Aucune configuration TypoScript trouvée. Admin, as-tu inclus le gabarit statique "Powermail_Frontend" ?</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Aucune configuration TypoScript trouvée. Admin, as-tu inclus le gabarit statique « Powermail_Frontend » ?</target></alt-trans></trans-unit>
+			<trans-unit id="error_no_sender_name" approved="yes">
+				<source>No Sendername</source>
+			<target state="translated">Pas d'expéditeur</target></trans-unit>
+			<trans-unit id="error_no_sender_email" approved="yes">
+				<source>noreply</source>
+			<target state="translated">ne_pas_repondre</target><alt-trans xml:space="preserve" origin="namnam"><target>ne_pas_repondre</target></alt-trans><alt-trans xml:space="preserve" origin="mygoddess"><target>Pas d'adresse d'expéditeur</target></alt-trans><alt-trans xml:space="preserve" origin="rakel"><target>ne pas repondre</target></alt-trans><alt-trans xml:space="preserve" origin="lexflex"><target>Pas de courriel de l'expéditeur</target></alt-trans></trans-unit>
+			<trans-unit id="error_no_form" approved="yes">
+				<source>No form to show</source>
+			<target state="translated">Aucun formulaire à afficher</target><alt-trans xml:space="preserve" origin="rakel"><target>Aucun formulaire à montrer</target></alt-trans><alt-trans xml:space="preserve" origin="lavan"><target>Aucun formulaire à afficher.</target></alt-trans></trans-unit>
+			<trans-unit id="error_wrong_captcha" approved="yes">
+				<source>Wrong Captcha value, please try again!</source>
+			<target state="translated">Valeur du Captcha erronée, veuillez réessayer !</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Valeur du Captcha erronée, veuillez réessayer !</target></alt-trans></trans-unit>
+			<trans-unit id="validationerror_mandatory" approved="yes">
+				<source>This field must be filled!</source>
+			<target state="translated">Ce champ doit être rempli !</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Ce champ doit être rempli !</target></alt-trans></trans-unit>
+			<trans-unit id="validationerror_mandatory_multi" approved="yes">
+				<source>One of these fields must be filled!</source>
+			<target state="translated">Un de ces champs doit être rempli !</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Un de ces champs doit être rempli !</target></alt-trans></trans-unit>
+			<trans-unit id="validationerror_captcha" approved="yes">
+				<source>Wrong captcha code entered - please try again!</source>
+			<target state="translated">Le code captcha entré est invalide - veuillez réessayer !</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Le code captcha entré est invalide - veuillez réessayer !</target></alt-trans></trans-unit>
+			<trans-unit id="validationerror_password" approved="yes">
+				<source>Both Password-Fields are not equal!</source>
+			<target state="translated">Les deux champs mots de passe ne sont pas identiques !</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Les deux mots de passe ne sont pas identiques !</target></alt-trans><alt-trans xml:space="preserve" origin="rakel"><target>les deux champs mots de passe ne sont pas identiques !</target></alt-trans></trans-unit>
+			<trans-unit id="validationerror_unique" approved="yes">
+				<source>This value is already in use - please use a new one!</source>
+			<target state="translated">Cette valeur est déjà utilisée - merci d'en utiliser une nouvelle !</target><alt-trans xml:space="preserve" origin="rakel"><target>cette valeur est déjà utilisée - merci d'en utiliser une nouvelle !</target></alt-trans><alt-trans xml:space="preserve" origin="mygoddess"><target>Cette valeur est déjà utilisée - merci d'en utiliser une nouvelle !</target></alt-trans></trans-unit>
+			<trans-unit id="validationerror_validation" approved="yes">
+				<source>Your input is not allowed!</source>
+			<target state="translated">Votre entrée n'est pas autorisée !</target><alt-trans xml:space="preserve" origin="lexflex"><target>Votre entrée n'est pas autorisée !</target></alt-trans><alt-trans xml:space="preserve" origin="mygoddess"><target>Votre entrée n'est pas autorisée !</target></alt-trans></trans-unit>
+			<trans-unit id="validationerror_validation.1" approved="yes">
+				<source>This is not a valid email address!</source>
+			<target state="translated">Cette adresse email n'est pas valide !</target><alt-trans xml:space="preserve" origin="lexflex"><target>Ce n'est pas une adresse email valide !</target></alt-trans><alt-trans xml:space="preserve" origin="rakel"><target>Cette adresse email n'est pas valide!</target></alt-trans><alt-trans xml:space="preserve" origin="mygoddess"><target>Ce n'est pas une adresse email valide !</target></alt-trans></trans-unit>
+			<trans-unit id="validationerror_validation.2" approved="yes">
+				<source>This is not a valid URL!</source>
+			<target state="translated">Cette URL n'est pas une URL valide !</target><alt-trans xml:space="preserve" origin="lexflex"><target>Ce n'est pas une URL valide !</target></alt-trans><alt-trans xml:space="preserve" origin="mygoddess"><target>Ce n'est pas une URL valide !</target></alt-trans><alt-trans xml:space="preserve" origin="rakel"><target>Cette URL n'est pas valide!</target></alt-trans></trans-unit>
+			<trans-unit id="validationerror_validation.3" approved="yes">
+				<source>This is not a valid Phone Number!</source>
+			<target state="translated">Ce numéro de téléphone n'est pas valide !</target><alt-trans xml:space="preserve" origin="lexflex"><target>Ce n'est pas un numéro de téléphone valide !</target></alt-trans><alt-trans xml:space="preserve" origin="rakel"><target>Ce numéro de téléphone n'est pas valide!</target></alt-trans><alt-trans xml:space="preserve" origin="mygoddess"><target>Ce n'est pas un numéro de téléphone valide !</target></alt-trans></trans-unit>
+			<trans-unit id="validationerror_validation.4" approved="yes">
+				<source>Please insert numbers only!</source>
+			<target state="translated">Veuillez insérer uniquement des numéros !</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Veuillez insérer uniquement des numéros !</target></alt-trans></trans-unit>
+			<trans-unit id="validationerror_validation.5" approved="yes">
+				<source>Please insert letters only!</source>
+			<target state="translated">Veuillez insérer uniquement des lettres !</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Veuillez insérer uniquement des lettres !</target></alt-trans></trans-unit>
+			<trans-unit id="validationerror_validation.6" approved="yes">
+				<source>Please increase number!</source>
+			<target state="translated">Merci d'augmenter le nombre !</target><alt-trans xml:space="preserve" origin="rakel"><target>Merci d'augmenter le nombre!</target></alt-trans><alt-trans xml:space="preserve" origin="mygoddess"><target>Merci d'augmenter le nombre !</target></alt-trans></trans-unit>
+			<trans-unit id="validationerror_validation.7" approved="yes">
+				<source>Please decrease number!</source>
+			<target state="translated">Merci de diminuer le nombre !</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Merci de diminuer le nombre !</target></alt-trans><alt-trans xml:space="preserve" origin="rakel"><target>Merci de diminuer le nombre!</target></alt-trans></trans-unit>
+			<trans-unit id="validationerror_validation.8" approved="yes">
+				<source>Number to high or to low!</source>
+			<target state="translated">Le nombre est trop élevé ou trop bas !</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Le nombre est trop élevé ou trop bas !</target></alt-trans><alt-trans xml:space="preserve" origin="rakel"><target>Le nombre est trop élevé ou trop bas!</target></alt-trans></trans-unit>
+			<trans-unit id="validationerror_validation.9" approved="no">
+				<source>Your input is not valid (too many or too less signs)</source>
+			<target state="needs-translation">Trop de caractères saisis !</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Trop de caractères saisis !</target></alt-trans><alt-trans xml:space="preserve" origin="rakel"><target>Trop de caractères saisis!</target></alt-trans></trans-unit>
+			<trans-unit id="validationerror_validation.10" approved="yes">
+				<source>Error in validation!</source>
+			<target state="translated">Erreur durant la validation !</target><alt-trans xml:space="preserve" origin="rakel"><target>Erreur durant la validation!</target></alt-trans><alt-trans xml:space="preserve" origin="mygoddess"><target>Erreur durant la validation !</target></alt-trans></trans-unit>
+			<trans-unit id="validationerror_upload_extension" approved="yes">
+				<source>It's not allowed to upload a file with this extension!</source>
+			<target state="translated">Il n'est pas autorisé de transférer un fichier avec cette extension !</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Il n'est pas autorisé de transférer un fichier avec cette extension !</target></alt-trans></trans-unit>
+			<trans-unit id="validationerror_upload_size" approved="yes">
+				<source>The file, that you want to upload is too large!</source>
+			<target state="translated">Le fichier que vous souhaitez transférer est trop lourd !</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Le fichier que vous souhaitez transférer est trop lourd !</target></alt-trans></trans-unit>
+			<trans-unit id="validationerror_upload_error" approved="yes">
+				<source>Upload failed, please check permissons on the server!</source>
+			<target state="translated">Transfert échoué, contrôlez les permissions sur le serveur !</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Transfert échoué, contrôler les permissions sur le serveur !</target></alt-trans></trans-unit>
+			<trans-unit id="validationerror_spam" approved="yes">
+				<source>Spam recognized:</source>
+			<target state="translated">Spam identifié :</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Spam identifié :</target></alt-trans></trans-unit>
+			<trans-unit id="validationerror_spam_details" approved="yes">
+				<source>Spam chance in this message!</source>
+			<target state="translated">Probabilité de spam dans ce message !</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Probabilité de spam dans ce message !</target></alt-trans></trans-unit>
+			<trans-unit id="writePasswordAgain" approved="yes">
+				<source>Please write again</source>
+			<target state="translated">Veuillez svp réécrire</target></trans-unit>
+			<trans-unit id="datepicker_format_date" approved="yes">
+				<source>Y-m-d</source>
+			<target state="translated">d.m.Y</target></trans-unit>
+			<trans-unit id="datepicker_format_datetime" approved="yes">
+				<source>Y-m-d H:i</source>
+			<target state="translated">d.m.Y H:i</target></trans-unit>
+			<trans-unit id="datepicker_format_time" approved="yes">
+				<source>H:i</source>
+			<target state="translated">H:i</target></trans-unit>
+			<trans-unit id="datepicker_day_so" approved="yes">
+				<source>So</source>
+			<target state="translated">Di</target></trans-unit>
+			<trans-unit id="datepicker_day_mo" approved="yes">
+				<source>Mo</source>
+			<target state="translated">Lu</target></trans-unit>
+			<trans-unit id="datepicker_day_tu" approved="yes">
+				<source>Tu</source>
+			<target state="translated">Ma</target></trans-unit>
+			<trans-unit id="datepicker_day_we" approved="yes">
+				<source>We</source>
+			<target state="translated">Me</target></trans-unit>
+			<trans-unit id="datepicker_day_th" approved="yes">
+				<source>Th</source>
+			<target state="translated">Je</target></trans-unit>
+			<trans-unit id="datepicker_day_fr" approved="yes">
+				<source>Fr</source>
+			<target state="translated">Ve</target></trans-unit>
+			<trans-unit id="datepicker_day_sa" approved="yes">
+				<source>Sa</source>
+			<target state="translated">Sa</target></trans-unit>
+			<trans-unit id="datepicker_month_jan" approved="yes">
+				<source>January</source>
+			<target state="translated">janvier</target></trans-unit>
+			<trans-unit id="datepicker_month_feb" approved="yes">
+				<source>February</source>
+			<target state="translated">février</target></trans-unit>
+			<trans-unit id="datepicker_month_mar" approved="yes">
+				<source>March</source>
+			<target state="translated">mars</target></trans-unit>
+			<trans-unit id="datepicker_month_apr" approved="yes">
+				<source>April</source>
+			<target state="translated">avril</target></trans-unit>
+			<trans-unit id="datepicker_month_may" approved="yes">
+				<source>May</source>
+			<target state="translated">mai</target></trans-unit>
+			<trans-unit id="datepicker_month_jun" approved="yes">
+				<source>June</source>
+			<target state="translated">juin</target></trans-unit>
+			<trans-unit id="datepicker_month_jul" approved="yes">
+				<source>July</source>
+			<target state="translated">juillet</target></trans-unit>
+			<trans-unit id="datepicker_month_aug" approved="yes">
+				<source>August</source>
+			<target state="translated">août</target></trans-unit>
+			<trans-unit id="datepicker_month_sep" approved="yes">
+				<source>September</source>
+			<target state="translated">septembre</target></trans-unit>
+			<trans-unit id="datepicker_month_oct" approved="yes">
+				<source>October</source>
+			<target state="translated">octobre</target></trans-unit>
+			<trans-unit id="datepicker_month_nov" approved="yes">
+				<source>November</source>
+			<target state="translated">novembre</target></trans-unit>
+			<trans-unit id="datepicker_month_dec" approved="yes">
+				<source>December</source>
+			<target state="translated">décembre</target></trans-unit>
+			<trans-unit id="JsValidationCheckCheckboxes" approved="yes">
+				<source>Please check min. 1</source>
+			<target state="translated">Sélectionner au moins une option s'il vous plaît.</target></trans-unit>
+			<trans-unit id="JsValidationCheckInteger" approved="yes">
+				<source>Not a valid number</source>
+			<target state="translated">Nombre invalide</target></trans-unit>
+			<trans-unit id="JsValidationCheckRequired" approved="yes">
+				<source>This field is required</source>
+			<target state="translated">Ce champ est requis</target></trans-unit>
+			<trans-unit id="JsValidationCheckRequiredOption" approved="yes">
+				<source>Please select an option</source>
+			<target state="translated">Sélectionner une option svp</target></trans-unit>
+			<trans-unit id="JsValidationCheckEmail" approved="yes">
+				<source>Invalid Email</source>
+			<target state="translated">Courriel invalide</target></trans-unit>
+			<trans-unit id="JsValidationCheckUrl" approved="yes">
+				<source>Invalid URL</source>
+			<target state="translated">URL invalide</target></trans-unit>
+			<trans-unit id="JsValidationCheckPhone" approved="yes">
+				<source>Invalid Phone No</source>
+			<target state="translated">Numéro de téléphone invalide</target></trans-unit>
+			<trans-unit id="JsValidationCheckLetters" approved="yes">
+				<source>Only Letters allowed</source>
+			<target state="translated">Seules les lettres sont autorisées</target></trans-unit>
+			<trans-unit id="BackendSelectionList" approved="yes">
+				<source>Mail List</source>
+			<target state="translated">Liste d'adresses électroniques</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Liste d'adresses électroniques</target></alt-trans></trans-unit>
+			<trans-unit id="BackendSelectionReporting" approved="yes">
+				<source>Reporting</source>
+			<target state="translated">Rapport</target></trans-unit>
+			<trans-unit id="BackendSelectionReportingForm" approved="yes">
+				<source>Reporting (Form)</source>
+			<target state="translated">Rapport (Formulaires)</target></trans-unit>
+			<trans-unit id="BackendSelectionReportingMarketing" approved="yes">
+				<source>Reporting (Marketing)</source>
+			<target state="translated">Rapport (Marketing)</target></trans-unit>
+			<trans-unit id="BackendSelectionTools" approved="yes">
+				<source>Tools</source>
+			<target state="translated">Outils</target></trans-unit>
+			<trans-unit id="BackendSelectionOverview" approved="yes">
+				<source>Form Overview</source>
+			<target state="translated">Vue d'ensemble des formulaires</target></trans-unit>
+			<trans-unit id="BackendSelectionCheck" approved="yes">
+				<source>Function Check</source>
+			<target state="translated">Vérification des fonctionnalités</target></trans-unit>
+			<trans-unit id="BackendSelectionConverterTitle" approved="yes">
+				<source>Form Converter</source>
+			<target state="translated">Convertisseur de formulaires</target></trans-unit>
+			<trans-unit id="BackendSelectionConverterTitle2" approved="yes">
+				<source>Converts all Powermail 1.x to 2.x Forms</source>
+			<target state="translated">Convertir tous les formulaires Powermail 1.x vers 2.x</target></trans-unit>
+			<trans-unit id="BackendSelectionConverterTitle3" approved="no">
+				<source>Old records (from Tables tx_powermail_fieldsets, tx_powermail_fields and tt_content) will be flagged with deleted=1. New Records will be generated (Tables tx_powermail_domain_model_form, tx_powermail_domain_model_page, tx_powermail_domain_model_field, tt_content)</source>
+			<target state="needs-translation">Les anciens enregistrements (des tables tx_powermail_fieldsets, tx_powermail_fields et tt_content) seront marqués avec deleted=1. Les nouveaux enregistrements seront générés (tables tx_powermail_domain_model_forms, tx_powermail_domain_model_pages, tx_powermail_domain_model_fields, tt_content)</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Les anciens enregistrements (des tables tx_powermail_fieldsets, tx_powermail_fields et tt_content) seront marqués avec deleted=1. Les nouveaux enregistrements seront générés (tables tx_powermail_domain_model_forms, tx_powermail_domain_model_pages, tx_powermail_domain_model_fields, tt_content)</target></alt-trans><alt-trans xml:space="preserve" origin="rakel"><target>Tous les enregistrements (des tables tx_powermail_fieldsets, tx_powermail_fields et tt_content) seront marqués avec deleted=1. Les nouveaux enregistrements seront générés (tables tx_powermail_domain_model_forms, tx_powermail_domain_model_pages, tx_powermail_domain_model_fields, tt_content)</target></alt-trans></trans-unit>
+			<trans-unit id="BackendSelectionConverterTitle4" approved="yes">
+				<source>Attention: Please backup your database before converting. This step is irreversible.</source>
+			<target state="translated">Attention : Merci de sauvegarder votre base de données avant de lancer la conversion. Cette étape est irréversible.</target><alt-trans xml:space="preserve" origin="rakel"><target>Attention : Merci de sauvegarder votre base de données avant de lancer la conversion. Cette étape est irréversible.</target></alt-trans><alt-trans xml:space="preserve" origin="mygoddess"><target>Attention : Merci de sauvegarder votre base de données avant de lancer la conversion. Cette étape est irréversible.</target></alt-trans></trans-unit>
+			<trans-unit id="BackendListMultiselectLabel" approved="yes">
+				<source>record(s) selected:</source>
+			<target state="translated">enregistrement(s) sélectionné(s) :</target><alt-trans xml:space="preserve" origin="oktopuce"><target>enregistrement(s) sélectionné(s):</target></alt-trans><alt-trans xml:space="preserve" origin="mygoddess"><target>enregistrement(s) sélectionné(s) :</target></alt-trans></trans-unit>
+			<trans-unit id="BackendConverterFormSave" approved="yes">
+				<source>Save new forms on page with PID</source>
+			<target state="translated">Enregistrer les nouveaux formulaires dans la page avec le PID renseigné</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Enregistrer les nouveaux formulaires dans la page avec le PID</target></alt-trans><alt-trans xml:space="preserve" origin="rakel"><target>Enregistrer les nouveaux formulaires dans la page PID</target></alt-trans></trans-unit>
+			<trans-unit id="BackendConverterFormDefaultReceiverName" approved="yes">
+				<source>Default Receiver Name</source>
+			<target state="translated">Nom du destinataire par défaut</target><alt-trans xml:space="preserve" origin="rakel"><target>Nom du destinataire par défaut</target></alt-trans></trans-unit>
+			<trans-unit id="BackendConverterFormDefaultSenderNameConfirmationMail" approved="yes">
+				<source>Default Sender Name for Confirmation Mail</source>
+			<target state="translated">Nom de l'expéditeur par défaut pour les mails de confirmation</target><alt-trans xml:space="preserve" origin="rakel"><target>Nom de l'expéditeur par défaut pour les mails de confirmation</target></alt-trans></trans-unit>
+			<trans-unit id="BackendConverterFormDefaultSenderMailConfirmationMail" approved="yes">
+				<source>Default Sender Email for Confirmation Mail</source>
+			<target state="translated">E-mail de l'expéditeur par défaut pour les mails de confirmation</target><alt-trans xml:space="preserve" origin="rakel"><target>Email de l'expéditeur par défaut pour les mails de confirmation</target></alt-trans></trans-unit>
+			<trans-unit id="BackendConverterFormDefaultParseFunc" approved="yes">
+				<source>ParseFunc Path in TypoScript (without prefix lib.).</source>
+			<target state="translated">Chemin de la ParseFunc TypoScript (sans le préfixe lib.).</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Chemin de la ParseFunc TypoScript (sans le préfixe lib.).</target></alt-trans></trans-unit>
+			<trans-unit id="BackendConverterFormDefaultParseFuncTroubleText" approved="yes">
+				<source>If you have trouble with form converting, you can let this value completely empty.</source>
+			<target state="translated">Si vous rencontrez des problèmes avec la conversion des formulaires, vous pouvez laisser cette valeur vide.</target><alt-trans xml:space="preserve" origin="rakel"><target>Si vous rencontrez des problèmes avec la conversion des formulaires, vous pouvez laisser cette valeur complètement vide.</target></alt-trans></trans-unit>
+			<trans-unit id="BackendConverterFormHidden" approved="yes">
+				<source>Ignore Old Hidden Forms</source>
+			<target state="translated">Ignorer les anciens formulaires cachés</target><alt-trans xml:space="preserve" origin="rakel"><target>Ignorer les anciens formulaires cachés</target></alt-trans></trans-unit>
+			<trans-unit id="BackendConverterFormDryrun" approved="yes">
+				<source>Do only a Test Run (no records will be generated or deleted)</source>
+			<target state="translated">Faire uniquement une simulation (aucun enregistrement ne sera supprimé ou généré)</target><alt-trans xml:space="preserve" origin="rakel"><target>Faire uniquement une simulation (aucun enregistrement ne sera supprimé ou généré)</target></alt-trans></trans-unit>
+			<trans-unit id="BackendConverterOldForms" approved="yes">
+				<source>Old Forms (tt_content)</source>
+			<target state="translated">Anciens formulaires (tt_content)</target><alt-trans xml:space="preserve" origin="rakel"><target>Anciens formulaires (tt_content)</target></alt-trans></trans-unit>
+			<trans-unit id="BackendConverterTtContentUid" approved="yes">
+				<source>Uid</source>
+			<target state="translated">Uid</target><alt-trans xml:space="preserve" origin="rakel"><target>Uid</target></alt-trans></trans-unit>
+			<trans-unit id="BackendConverterPage" approved="yes">
+				<source>Pid</source>
+			<target state="translated">Pid</target><alt-trans xml:space="preserve" origin="rakel"><target>Pid</target></alt-trans></trans-unit>
+			<trans-unit id="BackendConverterLanguage" approved="yes">
+				<source>Language</source>
+			<target state="translated">Langue</target></trans-unit>
+			<trans-unit id="BackendConverterTitle" approved="yes">
+				<source>Title</source>
+			<target state="translated">Titre</target></trans-unit>
+			<trans-unit id="BackendConverterRecipient" approved="yes">
+				<source>Recipient</source>
+			<target state="translated">Destinataire</target></trans-unit>
+			<trans-unit id="BackendConverterSubject" approved="yes">
+				<source>Subject</source>
+			<target state="translated">Sujet</target><note>100%</note></trans-unit>
+			<trans-unit id="BackendConverterFieldsetAmount" approved="yes">
+				<source>Number of Fieldsets</source>
+			<target state="translated">Nombre de groupes de champs (fieldset)</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Nombre de groupes de champs</target></alt-trans><alt-trans xml:space="preserve" origin="rakel"><target>Nombre de Fieldsets</target></alt-trans></trans-unit>
+			<trans-unit id="BackendConverterConfirmationPage" approved="yes">
+				<source>Confirmation Page</source>
+			<target state="translated">Page de confirmation</target></trans-unit>
+			<trans-unit id="BackendConverterMultiple" approved="yes">
+				<source>Multiple</source>
+			<target state="translated">Multiple</target></trans-unit>
+			<trans-unit id="BackendConverterNoOldForms" approved="yes">
+				<source>No old Forms found</source>
+			<target state="translated">Aucun ancien formulaire trouvé</target></trans-unit>
+			<trans-unit id="BackendConverterUpdateTitle2" approved="yes">
+				<source>Overview: Converted Forms</source>
+			<target state="translated">Vue d'ensemble : formulaires convertis</target></trans-unit>
+			<trans-unit id="BackendConverterUpdateMessageOk" approved="yes">
+				<source>Form(s) successfully generated!</source>
+			<target state="translated">Formulaires générés avec succès !</target></trans-unit>
+			<trans-unit id="BackendConverterUpdateMessageNote" approved="yes">
+				<source>Form(s) could be migrated</source>
+			<target state="translated">Des formulaires peuvent être migrés</target></trans-unit>
+			<trans-unit id="BackendConverterUpdateFormUid" approved="yes">
+				<source>Uid</source>
+			<target state="translated">Uid</target></trans-unit>
+			<trans-unit id="BackendConverterUpdateFormUidAutogenerated" approved="yes">
+				<source>[auto]</source>
+			<target state="translated">[auto]</target><alt-trans xml:space="preserve" origin="rakel"><target>[auto]</target></alt-trans></trans-unit>
+			<trans-unit id="BackendConverterUpdateFormPid" approved="yes">
+				<source>Pid</source>
+			<target state="translated">Pid</target><alt-trans xml:space="preserve" origin="rakel"><target>Pid</target></alt-trans></trans-unit>
+			<trans-unit id="BackendConverterUpdateFormTitle" approved="yes">
+				<source>Title</source>
+			<target state="translated">Titre</target><alt-trans xml:space="preserve" origin="rakel"><target>Titre</target></alt-trans></trans-unit>
+			<trans-unit id="BackendConverterUpdateFormHidden" approved="yes">
+				<source>Hidden</source>
+			<target state="translated">Caché</target></trans-unit>
+			<trans-unit id="BackendConverterUpdateFormPageAmount" approved="yes">
+				<source>Page Amount</source>
+			<target state="translated">Nombre de pages</target></trans-unit>
+			<trans-unit id="BackendConverterUpdateFormPages" approved="yes">
+				<source>Pages</source>
+			<target state="translated">Pages</target></trans-unit>
+			<trans-unit id="BackendConverterUpdatePageUid" approved="yes">
+				<source>Uid</source>
+			<target state="translated">Uid</target></trans-unit>
+			<trans-unit id="BackendConverterUpdatePageUidAutogenerated" approved="yes">
+				<source>[auto]</source>
+			<target state="translated">[auto]</target></trans-unit>
+			<trans-unit id="BackendConverterUpdatePagePid" approved="yes">
+				<source>Pid</source>
+			<target state="translated">Pid</target></trans-unit>
+			<trans-unit id="BackendConverterUpdatePageTitle" approved="yes">
+				<source>Title</source>
+			<target state="translated">Titre</target></trans-unit>
+			<trans-unit id="BackendConverterUpdatePageLayout" approved="yes">
+				<source>Layout</source>
+			<target state="translated">Disposition</target></trans-unit>
+			<trans-unit id="BackendConverterUpdatePageFieldAmount" approved="yes">
+				<source>Field Amount</source>
+			<target state="translated">Nombre de champs</target></trans-unit>
+			<trans-unit id="BackendConverterUpdatePageFields" approved="yes">
+				<source>Fields</source>
+			<target state="translated">Champs</target></trans-unit>
+			<trans-unit id="BackendConverterUpdateFieldUid" approved="yes">
+				<source>Uid</source>
+			<target state="translated">Uid</target><alt-trans xml:space="preserve" origin="rakel"><target>Uid</target></alt-trans></trans-unit>
+			<trans-unit id="BackendConverterUpdateFieldUidAutogenerated" approved="yes">
+				<source>[auto]</source>
+			<target state="translated">[auto]</target></trans-unit>
+			<trans-unit id="BackendConverterUpdateFieldPid" approved="yes">
+				<source>Pid</source>
+			<target state="translated">Pid</target><alt-trans xml:space="preserve" origin="rakel"><target>Pid</target></alt-trans></trans-unit>
+			<trans-unit id="BackendConverterUpdateFieldTitle" approved="yes">
+				<source>Title</source>
+			<target state="translated">Titre</target><alt-trans xml:space="preserve" origin="rakel"><target>Titre</target></alt-trans></trans-unit>
+			<trans-unit id="BackendConverterUpdateFieldProperties" approved="yes">
+				<source>Properties</source>
+			<target state="translated">Propriétés</target><alt-trans xml:space="preserve" origin="rakel"><target>Propriétés</target></alt-trans></trans-unit>
+			<trans-unit id="BackendConverterUpdateNoFormsConverted" approved="yes">
+				<source>No Forms converted</source>
+			<target state="translated">Aucun formulaire converti</target><alt-trans xml:space="preserve" origin="rakel"><target>Aucun formulaire converti</target></alt-trans></trans-unit>
+			<trans-unit id="BackendCheckTitle" approved="yes">
+				<source>Powermail Check</source>
+			<target state="translated">Vérification de Powermail</target><alt-trans xml:space="preserve" origin="rakel"><target>Vérification Powermail</target></alt-trans></trans-unit>
+			<trans-unit id="BackendCheckTryToFix" approved="yes">
+				<source>Solve problem</source>
+			<target state="translated">Résoudre le problème</target><alt-trans xml:space="preserve" origin="rakel"><target>Résoudre le problème</target></alt-trans></trans-unit>
+			<trans-unit id="BackendCheckSessionTitle" approved="yes">
+				<source>Frontend Session Check</source>
+			<target state="translated">Vérification de la session front-end</target><alt-trans xml:space="preserve" origin="rakel"><target>Vérification de la session front-end</target></alt-trans></trans-unit>
+			<trans-unit id="BackendCheckSessionCorrect" approved="yes">
+				<source>Frontend Sessions are working properly by using $GLOBALS['TSFE']-&gt;fe_user-&gt;getKey() and -&gt;setKey()</source>
+			<target state="translated">Les sessions frontend fonctionnent correctement en utilisant $GLOBALS['TSFE']-&gt;fe_user-&gt;getKey() et -&gt;setKey()</target></trans-unit>
+			<trans-unit id="BackendCheckSessionFailed" approved="yes">
+				<source>Frontend Sessions are working not properly by using $GLOBALS['TSFE']-&gt;fe_user-&gt;getKey() and -&gt;setKey() - please ask your Administrator</source>
+			<target state="translated">Les sessions frontend ne fonctionnent pas correctement en utilisant $GLOBALS['TSFE']-&gt;fe_user-&gt;getKey() et -&gt;setKey() - veuillez avertir votre administrateur</target></trans-unit>
+			<trans-unit id="BackendCheckExtMngConfigTitle" approved="yes">
+				<source>Extension Manager Updated</source>
+			<target state="translated">Gestion d'extension mis à jour</target></trans-unit>
+			<trans-unit id="BackendCheckExtMngConfigCorrect" approved="yes">
+				<source>Extension is correct installed - all settings available from localconf.php</source>
+			<target state="translated">L'extension est correctement installée - toutes les options sont disponibles depuis localconf.php</target><alt-trans xml:space="preserve" origin="mygoddess"><target>L'extension est correctement installée - toutes les options disponibles depuis localconf.php</target></alt-trans></trans-unit>
+			<trans-unit id="BackendCheckExtMngConfigFailed" approved="yes">
+				<source>Extension was not correct installed - please click the update button in the Extension Manager</source>
+			<target state="translated">L'extension n'est pas installée correctement - cliquer svp sur le bouton de mise à jour dans le gestionnaire d'extensions</target></trans-unit>
+			<trans-unit id="BackendCheckVersionTitle" approved="yes">
+				<source>Version</source>
+			<target state="translated">Version</target></trans-unit>
+			<trans-unit id="BackendCheckVersionLastUpdate" approved="no">
+				<source>Last Extension Manager update</source>
+			<target state="needs-translation">Gestion d'extension mis à jour</target><note>75%</note><alt-trans xml:space="preserve" origin="kminault"><target>Dernière mise à jour</target></alt-trans><alt-trans xml:space="preserve" origin="kminault"><target>Dernière mis à jour</target></alt-trans></trans-unit>
+			<trans-unit id="BackendCheckVersionNoInformation" approved="yes">
+				<source>It could not be verified if this version is secure or unsecure. Please update the extensions in the Extension Manager.</source>
+			<target state="translated">Il n'a pas été possible de vérifier la sécurité de l'extension. Veuillez mettre à jour les extensions dans le gestionnaire d'extensions.</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Il n'a pas été possible de vérifier la sécurité de l'extension. Veuillez mettre à jour les extensions dans le gestionnaire d'extensions.</target></alt-trans></trans-unit>
+			<trans-unit id="BackendCheckVersionUpToDate" approved="yes">
+				<source>The installed version of powermail is up-to-date</source>
+			<target state="translated">La version installée de powermail est à jour</target></trans-unit>
+			<trans-unit id="BackendCheckVersionSecurity" approved="yes">
+				<source>The installed version of powermail contains a known security bug. Please update your powermail extension as soon as possible.</source>
+			<target state="translated">La version installée de powermail contient des failles de sécurité. Veuillez mettre à jour l'extension dès que possible.</target><alt-trans xml:space="preserve" origin="mygoddess"><target>La version installée de powermail possède des failles de sécurité. Veuillez mettre à jour l'extension dès que possible.</target></alt-trans></trans-unit>
+			<trans-unit id="BackendCheckVersionUpgrade" approved="yes">
+				<source>A newer version of powermail is available</source>
+			<target state="translated">Une nouvelle version de powermail est disponible</target><alt-trans xml:space="preserve" origin="oktopuce"><target>Une nouvelle version de powermail est disponible</target></alt-trans></trans-unit>
+			<trans-unit id="BackendCheckT3VersionTitle" approved="yes">
+				<source>TYPO3 Version</source>
+			<target state="translated">Version TYPO3</target></trans-unit>
+			<trans-unit id="BackendCheckT3VersionCorrect" approved="yes">
+				<source>The used TYPO3 version is correct for this Powermail version</source>
+			<target state="translated">La version TYPO3 utilisée est correct pour cette version de Powermail</target></trans-unit>
+			<trans-unit id="BackendCheckT3VersionFailed" approved="yes">
+				<source>Please check the TYPO3 version - maybe Powermail works not properly in this version</source>
+			<target state="translated">Contrôler svp la version de TYPO3 - peut-être que Powermail ne fonctionne pas correctement pour cette version</target></trans-unit>
+			<trans-unit id="BackendCheckUploadsFolderTitle" approved="yes">
+				<source>Upload Folder</source>
+			<target state="translated">Dossier de téléchargement</target></trans-unit>
+			<trans-unit id="BackendCheckUploadsFolderCorrect" approved="yes">
+				<source>Default Upload Folder exists (uploads/tx_powermail/)</source>
+			<target state="translated">Le dossier de téléchargement par défaut existe (uploads/tx_powermail/)</target></trans-unit>
+			<trans-unit id="BackendCheckUploadsFolderFailed" approved="yes">
+				<source>Default Upload Folder don't exists (uploads/tx_powermail/)</source>
+			<target state="translated">Le dossier de téléchargement par défaut n'existe pas (uploads/tx_powermail/)</target></trans-unit>
+			<trans-unit id="BackendCheckWrongLocalizedFormsTitle" approved="yes">
+				<source>Localized Forms</source>
+			<target state="translated">Formulaire(s) localisé(s)</target><alt-trans xml:space="preserve" origin="oktopuce"><target>Formulaire(s) localisé(s)</target></alt-trans></trans-unit>
+			<trans-unit id="BackendCheckWrongLocalizedFormsCorrect" approved="yes">
+				<source>No failures in forms found on this system</source>
+			<target state="translated">Aucunes défaillances n'ont été trouvées dans les formulaires sur ce système</target><alt-trans xml:space="preserve" origin="oktopuce"><target>Aucunes défaillances n'ont été trouvées dans les formulaires sur ce système</target></alt-trans></trans-unit>
+			<trans-unit id="BackendCheckWrongLocalizedFormsFailed" approved="yes">
+				<source>There are localized forms with empty tx_powermail_domain_model_form.pages fields which can lead to problems in rendering localized Forms in Frontend</source>
+			<target state="translated">Il y a des formulaire localisés avec des champs tx_powermail_domain_model_forms.pages vides ce qui peut entraîner des problèmes pour les restituer en Frontend</target><alt-trans xml:space="preserve" origin="oktopuce"><target>Il y a des formulaire localisés avec des champs tx_powermail_domain_model_forms.pages vides ce qui peut entraîner des problèmes pour les restituer en Frontend</target></alt-trans><alt-trans xml:space="preserve" origin="oktopuce"><target>Il y a des formulaire localisés avec des champs tx_powermail_domain_model_forms.pages vides ce qui peut entrainer des problèmes pour les restituer en Frontend</target></alt-trans></trans-unit>
+			<trans-unit id="BackendCheckWrongLocalizedPagesTitle" approved="yes">
+				<source>Localized Pages</source>
+			<target state="translated">Pages localisées</target><alt-trans xml:space="preserve" origin="oktopuce"><target>Pages localisées</target></alt-trans></trans-unit>
+			<trans-unit id="BackendCheckWrongLocalizedPagesCorrect" approved="yes">
+				<source>No failures in pages found on this system</source>
+			<target state="translated">Aucunes défaillances n'ont été trouvées dans les pages sur ce système</target><alt-trans xml:space="preserve" origin="oktopuce"><target>Aucunes défaillances n'ont été trouvées dans les pages sur ce système</target></alt-trans></trans-unit>
+			<trans-unit id="BackendCheckWrongLocalizedPagesFailed" approved="yes">
+				<source>There are localized pages with empty tx_powermail_domain_model_page.forms fields which can lead to problems in managing localized pages</source>
+			<target state="translated">Il y a des pages localisées avec des champs tx_powermail_domain_model_pages.forms vides ce qui pourrait conduire à des problèmes pour gérer les pages localisées.</target><alt-trans xml:space="preserve" origin="oktopuce"><target>Il y a des pages localisées avec des champs tx_powermail_domain_model_pages.forms vides ce qui pourrait conduire à des problèmes pour gérer les pages localisées.</target></alt-trans></trans-unit>
+			<trans-unit id="BackendCheckBackupBefore">
+				<source>Note: Please backup all powermail tables before you choose this option!</source>
+			<target/><alt-trans xml:space="preserve" origin="oktopuce"><target>Note: Veuillez enregistrer toutes les tables Powermail avant de choisir cette option !</target></alt-trans><alt-trans xml:space="preserve" origin="mygoddess"><target>Note : Veuillez enregistrer toutes les tables powermail avant de choisir cette option !</target></alt-trans></trans-unit>
+			<trans-unit id="BackendCheckDevelopmentContextTitle" approved="yes">
+				<source>Development Context</source>
+			<target state="translated">Contexte de développement</target><alt-trans xml:space="preserve" origin="oktopuce"><target>Mode développement</target></alt-trans></trans-unit>
+			<trans-unit id="BackendCheckDevelopmentContextActive" approved="yes">
+				<source>This TYPO3 instance is running in development context. All mails will be send to %s only.</source>
+			<target state="translated">Cette instance de TYPO3 s'exécute en contexte de développement. Tous les mails seront uniquement envoyé à %s.</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Cette instance de TYPO3 s'exécute en contexte de développement. Tous les mails seront uniquement envoyé à %s.</target></alt-trans><alt-trans xml:space="preserve" origin="oktopuce"><target>Cette instance de TYPO3 tourne en mode dévéloppement. Tous les mails seront uniquement envoyé à %s.</target></alt-trans></trans-unit>
+			<trans-unit id="BackendCheckDevelopmentContextAvailable">
+				<source>This TYPO3 instance is running in development context. You can use %s in the AdditionalConfiguration.php to enforce powermail to send testmails to this email-address only.</source>
+			<target/><alt-trans xml:space="preserve" origin="kminault"><target>Cette instance TYPO3 s'exécute dans un contexte de développement. Vous pouvez utiliser %s dans AdditionalConfiguration.php pour forcer powermail à envoyer des testmails à cette adresse e-mail uniquement.</target></alt-trans></trans-unit>
+			<trans-unit id="BackendOverviewTitle" approved="yes">
+				<source>Form Overview</source>
+			<target state="translated">Vue d'ensemble des formulaires</target></trans-unit>
+			<trans-unit id="BackendOverviewTitle2" approved="yes">
+				<source>All Forms within page</source>
+			<target state="translated">Tous les formulaires de la page</target></trans-unit>
+			<trans-unit id="BackendOverviewTitle3" approved="yes">
+				<source>(and its subpages)</source>
+			<target state="translated">(et ses sous-pages)</target></trans-unit>
+			<trans-unit id="BackendOverviewTitle4" approved="yes">
+				<source>Show All Forms</source>
+			<target state="translated">Afficher tous les formulaires</target></trans-unit>
+			<trans-unit id="BackendOverviewTitle5" approved="yes">
+				<source>All Forms in this CMS</source>
+			<target state="translated">Tous les formulaires du CMS</target></trans-unit>
+			<trans-unit id="BackendOverviewTable" approved="yes">
+				<source>Forms</source>
+			<target state="translated">Formulaires</target></trans-unit>
+			<trans-unit id="BackendOverviewCol1" approved="yes">
+				<source>Form Title</source>
+			<target state="translated">Titre du formulaire</target></trans-unit>
+			<trans-unit id="BackendOverviewCol2" approved="yes">
+				<source>Stored on Page</source>
+			<target state="translated">Enregistré sur la page</target></trans-unit>
+			<trans-unit id="BackendOverviewCol3" approved="yes">
+				<source>Used on Page</source>
+			<target state="translated">Utilisé sur la page</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Utilisé sur la page</target></alt-trans></trans-unit>
+			<trans-unit id="BackendOverviewCol4" approved="yes">
+				<source>Powermail Pages</source>
+			<target state="translated">Pages powermail</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Pages powermail</target></alt-trans></trans-unit>
+			<trans-unit id="BackendOverviewCol5" approved="yes">
+				<source>Powermail Fields</source>
+			<target state="translated">Champs powermail</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Champs powermail</target></alt-trans></trans-unit>
+			<trans-unit id="BackendOverviewPages" approved="yes">
+				<source>Page(s)</source>
+			<target state="translated">Page(s)</target></trans-unit>
+			<trans-unit id="BackendOverviewFields" approved="yes">
+				<source>Field(s)</source>
+			<target state="translated">Champ(s)</target></trans-unit>
+			<trans-unit id="BackendOverviewNoForms" approved="yes">
+				<source>No Forms found</source>
+			<target state="translated">Aucun formulaire trouvé</target></trans-unit>
+			<trans-unit id="BackendFunctionTitle" approved="yes">
+				<source>Function-Test Section</source>
+			<target state="translated">Section de test de fonction</target><alt-trans xml:space="preserve" origin="kminault"><target>Section de test de fonction</target></alt-trans></trans-unit>
+			<trans-unit id="BackendEmailTitle" approved="yes">
+				<source>Test Email Sending</source>
+			<target state="translated">Courriel de test envoyé</target></trans-unit>
+			<trans-unit id="BackendEmailFormTitle" approved="yes">
+				<source>Test email generation with powermail</source>
+			<target state="translated">Test de génération de courriel avec Powermail</target></trans-unit>
+			<trans-unit id="BackendEmailFormReceiver" approved="yes">
+				<source>Receiver Email</source>
+			<target state="translated">Courriel du récepteur</target></trans-unit>
+			<trans-unit id="BackendCheckEmailTitle" approved="yes">
+				<source>Email Sending Status</source>
+			<target state="translated">Statut d'envoi de courriel</target></trans-unit>
+			<trans-unit id="BackendCheckEmailCorrect" approved="yes">
+				<source>Email send without problems (mail transmitted to mailserver)</source>
+			<target state="translated">Courriel envoyé sans problème (courrier transmis au serveur de mail)</target></trans-unit>
+			<trans-unit id="BackendCheckEmailFailed" approved="yes">
+				<source>Email cound not send properly (ask your Adminstrator)</source>
+			<target state="translated">Le courriel ne peut être envoyé correctement (demander à votre administrateur)</target></trans-unit>
+			<trans-unit id="BackendCheckStaticTemplateTitle" approved="yes">
+				<source>TypoScript Static Template</source>
+			<target state="translated">TypoScript Static Template</target></trans-unit>
+			<trans-unit id="BackendCheckStaticTemplateCorrect" approved="yes">
+				<source>Static TypoScript Template is available on current page.</source>
+			<target state="translated">Static TypoScript Template est disponible sur la page courante</target></trans-unit>
+			<trans-unit id="BackendCheckStaticTemplateFailed" approved="yes">
+				<source>Static TypoScript Template is not available on current page.</source>
+			<target state="translated">Static TypoScript Template n'est pas disponible sur la page courante</target></trans-unit>
+			<trans-unit id="BackendCheckComposerModeTitle" approved="yes">
+				<source>Composer Mode</source>
+			<target state="translated">Mode de Composer</target><alt-trans xml:space="preserve" origin="kminault"><target>Mode de Composer</target></alt-trans></trans-unit>
+			<trans-unit id="BackendCheckComposerModeComposer">
+				<source>Your TYPO3 is running in Composer Mode</source>
+			<target/><alt-trans xml:space="preserve" origin="kminault"><target>Votre TYPO3 fonctionne en mode Composer</target></alt-trans><alt-trans xml:space="preserve" origin="kminault"><target>Votre TYPO3 est en cours d'exécution du mode Composer</target></alt-trans></trans-unit>
+			<trans-unit id="BackendCheckComposerModeClassic">
+				<source>Your TYPO3 is running in Classic Mode</source>
+			<target/><alt-trans xml:space="preserve" origin="kminault"><target>Votre TYPO3 fonctionne en mode classique</target></alt-trans></trans-unit>
+			<trans-unit id="BackendListTitle" approved="yes">
+				<source>Mail Listings</source>
+			<target state="translated">Liste de distribution</target></trans-unit>
+			<trans-unit id="BackendListMails" approved="yes">
+				<source>Mails</source>
+			<target state="translated">Courriels</target></trans-unit>
+			<trans-unit id="BackendListMailDelete" approved="yes">
+				<source>Delete Mail</source>
+			<target state="translated">Supprimer des courriels</target></trans-unit>
+			<trans-unit id="BackendListMailDeleteConfirmation" approved="yes">
+				<source>Really Delete This Mail?</source>
+			<target state="translated">Réellement supprimer ce courriel?</target></trans-unit>
+			<trans-unit id="BackendListHelpDetails" approved="yes">
+				<source>Show Mail Details</source>
+			<target state="translated">Montrer les détails du courriel</target></trans-unit>
+			<trans-unit id="BackendListHelpEdit" approved="yes">
+				<source>Edit this Mail</source>
+			<target state="translated">Éditer ce courriel</target></trans-unit>
+			<trans-unit id="BackendListHelpUnhide" approved="yes">
+				<source>Activate this Mail</source>
+			<target state="translated">Activer ce courriel</target></trans-unit>
+			<trans-unit id="BackendListHelpHide" approved="yes">
+				<source>Deactivate this Mail</source>
+			<target state="translated">Désactiver ce courriel</target><note>85%</note></trans-unit>
+			<trans-unit id="BackendListNoMails" approved="yes">
+				<source>No Mails to show</source>
+			<target state="translated">Aucun mail à afficher</target></trans-unit>
+			<trans-unit id="BackendListNoMailsSub" approved="yes">
+				<source>Please choose another page or modify your filter settings</source>
+			<target state="translated">Choisissez svp une autre page ou modifiez les préférences de votre filtre</target></trans-unit>
+			<trans-unit id="BackendListFilterFulltextSearch" approved="yes">
+				<source>Fulltext Search:</source>
+			<target state="translated">Recherche plein texte :</target></trans-unit>
+			<trans-unit id="BackendListFilterFulltextSearchFormFilter" approved="yes">
+				<source>Reduce to one form:</source>
+			<target state="translated">Réduire à un formulaire :</target></trans-unit>
+			<trans-unit id="BackendListFilterFulltextSearchSubmit" approved="yes">
+				<source>Filter List</source>
+			<target state="translated">Liste des filtres</target></trans-unit>
+			<trans-unit id="BackendListFilterExtendedSearch" approved="yes">
+				<source>Extended Search</source>
+			<target state="translated">Recherche étendue</target></trans-unit>
+			<trans-unit id="BackendListFilterStart" approved="yes">
+				<source>Start</source>
+			<target state="translated">Début</target></trans-unit>
+			<trans-unit id="BackendListFilterEnd" approved="yes">
+				<source>Stop</source>
+			<target state="translated">Fin</target></trans-unit>
+			<trans-unit id="BackendListFilterName" approved="yes">
+				<source>Sender Name</source>
+			<target state="translated">Nom de l'expéditeur</target></trans-unit>
+			<trans-unit id="BackendListFilterMail" approved="yes">
+				<source>Sender Email</source>
+			<target state="translated">Courriel de l'expéditeur</target></trans-unit>
+			<trans-unit id="BackendListFilterSubject" approved="yes">
+				<source>Subject</source>
+			<target state="translated">Sujet</target></trans-unit>
+			<trans-unit id="BackendListFilterHidden" approved="yes">
+				<source>Deactivated Mails</source>
+			<target state="translated">Courriels désactivés</target></trans-unit>
+			<trans-unit id="BackendListFilterDefaultFields" approved="yes">
+				<source>Default Fields</source>
+			<target state="translated">Champs par défaut</target></trans-unit>
+			<trans-unit id="BackendListFilterAddField" approved="yes">
+				<source>Additional Fields</source>
+			<target state="translated">Champs additionnels</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Champs supplémentaires</target></alt-trans></trans-unit>
+			<trans-unit id="BackendListFilterClean" approved="yes">
+				<source>Delete Filters</source>
+			<target state="translated">Filtres supprimés</target></trans-unit>
+			<trans-unit id="BackendListFilterCleanLink" approved="yes">
+				<source>Show all Mails</source>
+			<target state="translated">Montrer tous les courriels</target></trans-unit>
+			<trans-unit id="BackendListFilterShowHidden" approved="yes">
+				<source>Show only deactivated Mails</source>
+			<target state="translated">Montrer seulement les courriels désactivés</target></trans-unit>
+			<trans-unit id="BackendListFilterShowNonHidden" approved="yes">
+				<source>Show only activated Mails</source>
+			<target state="translated">Montrer seulement les courriels activés</target></trans-unit>
+			<trans-unit id="BackendListFilterExtendedExport" approved="yes">
+				<source>Extended Export Settings</source>
+			<target state="translated">Paramètres étendus d'export</target></trans-unit>
+			<trans-unit id="BackendListFilterExtendedExportLeftLabel" approved="yes">
+				<source>Columns in Export file</source>
+			<target state="translated">Colonnes dans le fichier d'export</target></trans-unit>
+			<trans-unit id="BackendListFilterExtendedExportRightLabel" approved="yes">
+				<source>Available Columns</source>
+			<target state="translated">Colonnes disponibles</target></trans-unit>
+			<trans-unit id="BackendReportingTitle" approved="yes">
+				<source>Mail Reporting</source>
+			<target state="translated">Report de courriel</target></trans-unit>
+			<trans-unit id="BackendReportingForm" approved="yes">
+				<source>Form Reporting</source>
+			<target state="translated">Rapport de formulaire</target><alt-trans xml:space="preserve" origin="kminault"><target>Rapport de formulaire</target></alt-trans></trans-unit>
+			<trans-unit id="BackendReportingFormTitle" approved="yes">
+				<source>Form Reporting</source>
+			<target state="translated">Rapport de formulaire</target><alt-trans xml:space="preserve" origin="kminault"><target>Rapport de formulaire</target></alt-trans></trans-unit>
+			<trans-unit id="BackendReportingFormValue" approved="yes">
+				<source>Value</source>
+			<target state="translated">Valeur</target></trans-unit>
+			<trans-unit id="BackendReportingFormSubtitle1" approved="yes">
+				<source>Reporting with</source>
+			<target state="translated">Rapporté avec</target></trans-unit>
+			<trans-unit id="BackendReportingFormAmount" approved="yes">
+				<source>Amount</source>
+			<target state="translated">Montant</target></trans-unit>
+			<trans-unit id="BackendReportingMarketing" approved="yes">
+				<source>Marketing Reporting</source>
+			<target state="translated">Rapport marketing</target><alt-trans xml:space="preserve" origin="kminault"><target>Rapport marketing</target></alt-trans></trans-unit>
+			<trans-unit id="BackendReportingMarketingTitle" approved="yes">
+				<source>Marketing Reporting</source>
+			<target state="translated">Rapport marketing</target><alt-trans xml:space="preserve" origin="kminault"><target>Rapport marketing</target></alt-trans></trans-unit>
+			<trans-unit id="BackendReportingNoValues" approved="yes">
+				<source>No Values to Show</source>
+			<target state="translated">Aucune valeur à afficher</target><alt-trans xml:space="preserve" origin="kminault"><target>Aucune valeur à afficher</target></alt-trans></trans-unit>
+			<trans-unit id="BackendPluginInformationNoHeader">
+				<source>[no header]</source>
+			<target/><alt-trans xml:space="preserve" origin="kminault"><target>[aucun en-tête]</target></alt-trans></trans-unit>
+			<trans-unit id="BackendPluginInformationTitleMailForm" approved="yes">
+				<source>Mailform configuration</source>
+			<target state="translated">Configuration de mailform</target><alt-trans xml:space="preserve" origin="kminault"><target>Configuration de mailform</target></alt-trans></trans-unit>
+			<trans-unit id="BackendPluginInformationTitleLastMails" approved="yes">
+				<source>Last mails from this form</source>
+			<target state="translated">Derniers mails de ce formulaire</target><alt-trans xml:space="preserve" origin="kminault"><target>Derniers mails de ce formulaire</target></alt-trans></trans-unit>
+			<trans-unit id="BackendPluginInformationTitlePi2" approved="yes">
+				<source>Show and manage mails in Frontend</source>
+			<target state="translated">Afficher et gérer les mails dans Frontend</target><alt-trans xml:space="preserve" origin="kminault"><target>Afficher et gérer les mails dans Frontend</target></alt-trans></trans-unit>
+			<trans-unit id="PowermailFrontendNoMails" approved="yes">
+				<source>No Mails found.</source>
+			<target state="translated">Aucun courriel trouvé.</target></trans-unit>
+			<trans-unit id="PowermailFrontendFilterAll" approved="yes">
+				<source>All</source>
+			<target state="translated">Tous</target><alt-trans xml:space="preserve" origin="kminault"><target>Tous</target></alt-trans></trans-unit>
+			<trans-unit id="PowermailFrontendFilterSubmit" approved="yes">
+				<source>Filter Now</source>
+			<target state="translated">Filtrer maintenant</target><alt-trans xml:space="preserve" origin="kminault"><target>Filtrer maintenant</target></alt-trans></trans-unit>
+			<trans-unit id="PowermailFrontendNoMailsDetail" approved="yes">
+				<source>Please edit your filtersettings.</source>
+			<target state="translated">Éditer svp vos paramètres de filtres.</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Éditer svp vos paramètres de filtres.</target></alt-trans></trans-unit>
+			<trans-unit id="PowermailFrontendDetailView" approved="yes">
+				<source>Details</source>
+			<target state="translated">Détails</target></trans-unit>
+			<trans-unit id="PowermailFrontendEditView" approved="yes">
+				<source>Edit</source>
+			<target state="translated">Editer</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Éditer</target></alt-trans></trans-unit>
+			<trans-unit id="PowermailFrontendDeleteView">
+				<source>Delete</source>
+			<target/><alt-trans xml:space="preserve" origin="kminault"><target>Effacer</target></alt-trans></trans-unit>
+			<trans-unit id="PowermailFrontendEditSubmit" approved="yes">
+				<source>Save Changes</source>
+			<target state="translated">Sauvegarder les changements</target></trans-unit>
+			<trans-unit id="PowermailFrontendEditConfirm" approved="yes">
+				<source>Changes successfully saved</source>
+			<target state="translated">Changements sauvegardés avec succès</target></trans-unit>
+			<trans-unit id="PowermailFrontendEditNoMail" approved="yes">
+				<source>Missing required Mail parameter</source>
+			<target state="translated">Paramètre de mail est requis</target><alt-trans xml:space="preserve" origin="kminault"><target>Paramètre de mail est requis</target></alt-trans></trans-unit>
+			<trans-unit id="PowermailFrontendEditFailed" approved="yes">
+				<source>You are not allowed to make changes</source>
+			<target state="translated">Vous n'êtes pas autorisés à apporter des changements</target></trans-unit>
+			<trans-unit id="PowermailFrontendEditSuccessful" approved="yes">
+				<source>Changes successfully saved</source>
+			<target state="translated">Changements sauvegardés avec succès</target><note>100%</note></trans-unit>
+			<trans-unit id="PowermailFrontendDeleteFailed" approved="yes">
+				<source>Record could not be removed</source>
+			<target state="translated">L'enregistrement n'a pas pu être supprimé</target><alt-trans xml:space="preserve" origin="kminault"><target>L'enregistrement n'a pas pu être supprimé</target></alt-trans></trans-unit>
+			<trans-unit id="PowermailFrontendDeleteSuccessful" approved="yes">
+				<source>Record successfully removed</source>
+			<target state="translated">Enregistrement supprimé avec succès</target><alt-trans xml:space="preserve" origin="kminault"><target>Enregistrement supprimé avec succès</target></alt-trans></trans-unit>
+			<trans-unit id="ExtensionManagerConvertingScriptSuccess" approved="yes">
+				<source>All tables successfully converted</source>
+			<target state="translated">Toutes les tables converties avec succès</target><alt-trans xml:space="preserve" origin="kminault"><target>Toutes les tables converties avec succès</target></alt-trans></trans-unit>
+			<trans-unit id="ExtensionManagerConvertingScriptStopAlreadyExist">
+				<source>Failure! Tables could not be converted because there is already one or more new tables (tx_powermail_domain_model_mail, tx_powermail_domain_model_answer, tx_powermail_domain_model_form, tx_powermail_domain_model_page, tx_powermail_domain_model_field) and they are not empty</source>
+			<target/><alt-trans xml:space="preserve" origin="kminault"><target>Toutes les tables converties avec succèsFailure! Les tables n'ont pas pu être converties car il existe déjà une ou plusieurs nouvelles tables (tx_powermail_domain_model_mail, tx_powermail_domain_model_answer, tx_powermail_domain_model_form, tx_powermail_domain_model_page, tx_powermail_domain_model_field) et elles ne sont pas vides</target></alt-trans></trans-unit>
+			<trans-unit id="ExtensionManagerConvertingScriptStopNoTablesFound" approved="yes">
+				<source>Failure! Tables could not be converted because there is one or more old tables missing (tx_powermail_domain_model_mails, tx_powermail_domain_model_answers, tx_powermail_domain_model_forms, tx_powermail_domain_model_pages, tx_powermail_domain_model_fields)</source>
+			<target state="translated">Échec! Les tables n'ont pas pu être converties car il manque une ou plusieurs anciennes tables (tx_powermail_domain_model_mails, tx_powermail_domain_model_answers, tx_powermail_domain_model_forms, tx_powermail_domain_model_pages, tx_powermail_domain_model_fields)</target><alt-trans xml:space="preserve" origin="kminault"><target>Échec! Les tables n'ont pas pu être converties car il manque une ou plusieurs anciennes tables (tx_powermail_domain_model_mails, tx_powermail_domain_model_answers, tx_powermail_domain_model_forms, tx_powermail_domain_model_pages, tx_powermail_domain_model_fields)</target></alt-trans></trans-unit>
+			<trans-unit id="Back" approved="yes">
+				<source>Back</source>
+			<target state="translated">Retour</target></trans-unit>
+			<trans-unit id="Clock" approved="yes">
+				<source>o'clock</source>
+			<target state="translated">heures</target></trans-unit>
+			<trans-unit id="ClearFilter" approved="yes">
+				<source>Delete Filter</source>
+			<target state="translated">Supprimer le filtre</target></trans-unit>
+			<trans-unit id="Emails" approved="yes">
+				<source>Emails</source>
+			<target state="translated">Courriels</target></trans-unit>
+			<trans-unit id="FormField" approved="yes">
+				<source>Formfield</source>
+			<target state="translated">Champs de formulaire</target></trans-unit>
+			<trans-unit id="MarketingInformation" approved="yes">
+				<source>Marketing Information</source>
+			<target state="translated">Information marketing</target></trans-unit>
+			<trans-unit id="honeypodLabel" approved="yes">
+				<source>Don't fill this field!</source>
+			<target state="translated">Ne pas remplir ce champ !</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Ne pas remplir ce champ !</target></alt-trans><alt-trans xml:space="preserve" origin="lexflex"><target>Ne pas remplir ce champ !</target></alt-trans></trans-unit>
+			<trans-unit id="deleteAllFiles" approved="yes">
+				<source>Delete All Files</source>
+			<target state="translated">Supprimer tous les fichiers</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Supprimer tous les fichiers</target></alt-trans></trans-unit>
+		</body>
+	</file>
+</xliff>

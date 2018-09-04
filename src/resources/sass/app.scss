@@ -1,0 +1,401 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+
+@import 'vendor/foundation/functions';
+
+$primary-color: #6C9D33;
+$menu-2-color: darkseagreen;
+$menu-3-color: mediumseagreen;
+$menu-4-color: yellowgreen;
+$menu-8-color: darkseagreen;
+$menu-9-color: cadetblue;
+$menu-10-color: lightseagreen;
+$menu-11-color: skyblue;
+$menu-12-color: steelblue;
+
+*, p {
+  font-size: rem-calc(19);
+}
+*, h1, h2, h3, h4, h5, h6 {
+  text-rendering: optimizeLegibility;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+  background-color: scale-color(gray, $lightness: 92%);
+  &.about-us {
+    .title i {
+      color: $menu-2-color;
+    }
+    .sub-nav dd {
+      a {
+        background-color: $menu-2-color;
+      }
+      &.active a, a:hover {
+        background-color: lighten($menu-2-color, 15%);
+      }
+    }
+    .content a {
+      color: $menu-2-color;
+      &:hover {
+        color: lighten($menu-2-color, 15%);
+      }
+    }
+    hr {
+      border: 1px solid $menu-2-color;
+    }
+  }
+  &.whereabouts {
+    .title i {
+      color: $menu-3-color;
+    }
+    .sub-nav dd {
+      a {
+        background-color: $menu-3-color;
+      }
+      &.active a, a:hover {
+        background-color: lighten($menu-3-color, 15%);
+      }
+    }
+    .content a {
+      color: $menu-3-color;
+      &:hover {
+        color: lighten($menu-3-color, 15%);
+      }
+    }
+    hr {
+      border: 1px solid $menu-3-color;
+    }
+  }
+  &.accommodations {
+    .title i {
+      color: $menu-4-color;
+    }
+    .sub-nav dd {
+      a {
+        background-color: $menu-4-color;
+      }
+      &.active a, a:hover {
+        background-color: lighten($menu-4-color, 15%)
+      }
+    }
+    .content a {
+      color: $menu-4-color;
+      &:hover {
+        color: lighten($menu-4-color, 15%);
+      }
+    }
+    hr {
+      border: 1px solid $menu-4-color;
+    }
+  }
+  &.activities {
+    .title i {
+      color: $menu-8-color;
+    }
+    .sub-nav dd {
+      a {
+        background-color: $menu-8-color;
+      }
+      &.active a, a:hover {
+        background-color: lighten($menu-8-color, 15%)
+      }
+    }
+    .content a {
+      color: $menu-8-color;
+      &:hover {
+        color: lighten($menu-8-color, 15%);
+      }
+    }
+    hr {
+      border: 1px solid $menu-8-color;
+    }
+  }
+  &.other-services {
+    .title i {
+      color: $menu-9-color;
+    }
+    .sub-nav dd {
+      a {
+        background-color: $menu-9-color;
+      }
+      &.active a, a:hover {
+        background-color: lighten($menu-9-color, 15%)
+      }
+    }
+    .content a {
+      color: $menu-9-color;
+      &:hover {
+        color: lighten($menu-9-color, 15%);
+      }
+    }
+    hr {
+      border: 1px solid $menu-9-color;
+    }
+  }
+  &.prices-and-bookings {
+    .title i {
+      color: $menu-10-color;
+    }
+    .sub-nav dd {
+      a {
+        background-color: $menu-10-color;
+      }
+      &.active a, a:hover {
+        background-color: lighten($menu-10-color, 15%)
+      }
+    }
+    .content a {
+      color: $menu-10-color;
+      &:hover {
+        color: lighten($menu-10-color, 15%);
+      }
+    }
+    hr {
+      border: 1px solid $menu-10-color;
+    }
+  }
+  &.news {
+    .title i {
+      color: $menu-11-color;
+    }
+    .sub-nav dd {
+      a {
+        background-color: $menu-11-color;
+      }
+      &.active a, a:hover {
+        background-color: lighten($menu-11-color, 15%)
+      }
+    }
+    .content a {
+      color: $menu-11-color;
+      &:hover {
+        color: lighten($menu-11-color, 15%);
+      }
+    }
+    hr {
+      border: 1px solid $menu-11-color;
+    }
+  }
+  &.contact {
+    .title i {
+      color: $menu-12-color;
+    }
+    .sub-nav dd {
+      a {
+        background-color: $menu-12-color;
+      }
+      &.active a, a:hover {
+        background-color: lighten($menu-12-color, 15%)
+      }
+    }
+    .content a {
+      color: $menu-12-color;
+      &:hover {
+        color: lighten($menu-12-color, 15%);
+      }
+    }
+    hr {
+      border: 1px solid $menu-12-color;
+    }
+  }
+}
+
+.languages {
+  margin-top: 0.65rem;
+}
+
+.icon-bar.five-up.vertical {
+  width: 100%;
+  margin-bottom: 40px;
+  box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.1);
+  min-height: 100%;
+  .item {
+    label {
+      color: darken(gray, 20%);
+      font-size: rem-calc(16);
+    }
+    &.menu-2 i {
+      color: $menu-2-color;
+    }
+    &.menu-3 i {
+      color: $menu-3-color;
+    }
+    &.menu-4 i {
+      color: $menu-4-color;
+    }
+    &.menu-8 i {
+      color: $menu-8-color;
+    }
+    &.menu-9 i {
+      color: $menu-9-color;
+    }
+    &.menu-10 i {
+      color: $menu-10-color;
+    }
+    &.menu-11 i {
+      color: $menu-11-color;
+    }
+    &.menu-12 i {
+      color: $menu-12-color;
+    }
+    &.active i, &.active label, &:hover i, &:hover label {
+      color: white;
+    }
+    &.menu-2.active, &.menu-2:hover {
+      background-color: $menu-2-color;
+    }
+    &.menu-3.active, &.menu-3:hover {
+      background-color: $menu-3-color;
+    }
+    &.menu-4.active, &.menu-4:hover {
+      background-color: $menu-4-color;
+    }
+    &.menu-8.active, &.menu-8:hover {
+      background-color: $menu-8-color;
+    }
+    &.menu-9.active, &.menu-9:hover {
+      background-color: $menu-9-color;
+    }
+    &.menu-10.active, &.menu-10:hover {
+      background-color: $menu-10-color;
+    }
+    &.menu-11.active, &.menu-11:hover {
+      background-color: $menu-11-color;
+    }
+    &.menu-12.active, &.menu-12:hover {
+      background-color: $menu-12-color;
+    }
+    i {
+      width: 40px;
+      text-align: right;
+      padding-left: 1.2rem;
+      padding-right: 2.4rem;
+    }
+  }
+}
+
+.title {
+  i[class*="fi-"] {
+    height: 50px;
+    font-size: 50px;
+    color: black;
+    float: left;
+    padding: 0px 10px;
+  }
+  h2 {
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+}
+
+div.news .panel {
+  h4 {
+    height: 38px;
+  }
+  .teaser-text p {
+    height: 58px;
+  }
+}
+.slider {
+  .slick-slide {
+    width: 800px;
+  }
+  .slick-prev {
+    left: 12px;
+  }
+  .slick-next {
+    right: 12px;
+  }
+}
+.sub-nav {
+  dd {
+    padding: 12px 0px;
+    margin-left: 0;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    &.active a, a {
+      border: none;
+      border-radius: 2px;
+      padding: 0.75rem 1.15rem;
+      box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.2) inset;
+      color: white;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}
+
+.panel {
+  background: white;
+  box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.1)
+}
+.mandatory {
+  color: $primary-color;
+}
+
+.range-slider {
+  margin-top: 0.25rem;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-bottom: 8px;
+}
+
+ul.clearing-thumbs li {
+  margin: 0 38px 38px 0;
+}
+
+form textarea {
+  height: auto;
+  resize: none;
+}
+
+ul.social li a {
+  i {
+    font-size: rem-calc(40);
+  }
+  &:hover i {
+    color: white;
+  }
+  &.facebook:hover {
+    background-color: cornflowerblue;
+  }
+  &.twitter:hover {
+    background-color: lightskyblue;
+  }
+  &.instagram:hover {
+    background-color: saddlebrown;
+  }
+}
+
+@media only screen and (max-width: 40em) {
+  ul.social li a i {
+    font-size: rem-calc(23);
+  }
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  .icon-bar.five-up.vertical .item {
+    i {
+      padding: 0px;
+      text-align: center;
+      font-size: 3rem;
+      width: 100%;
+    }
+    label {
+      display: none;
+    }
+  }
+}
+
+.slick-slider {
+  margin-bottom: 50px;
+}

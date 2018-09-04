@@ -1,0 +1,71 @@
+[PIDinRootline = 2,3,4,8,9,10,11,12]
+    page.bodyTagCObject.wrap = <body class="|">
+[global]
+
+[PIDinRootline = 2]
+    page.bodyTagCObject.value= about-us
+    lib.parentIcon.value = <i class="fi-home"></i>
+[global]
+
+[PIDinRootline = 3]
+    page.bodyTagCObject.value= whereabouts
+    lib.parentIcon.value = <i class="fi-map"></i>
+[global]
+
+[PIDinRootline = 4]
+    page.bodyTagCObject.value= accommodations
+    lib.parentIcon.value = <i class="fi-key"></i>
+[global]
+
+[PIDinRootline = 8]
+    page.bodyTagCObject.value= activities
+    lib.parentIcon.value = <i class="fi-mountains"></i>
+[global]
+
+[PIDinRootline = 9]
+    page.bodyTagCObject.value= other-services
+    lib.parentIcon.value = <i class="fi-trees"></i>
+[global]
+
+[PIDinRootline = 10]
+    page.bodyTagCObject.value= prices-and-bookings
+    lib.parentIcon.value = <i class="fi-clipboard-pencil"></i>
+[global]
+
+[PIDinRootline = 11]
+    page.bodyTagCObject.value= news
+    lib.parentIcon.value = <i class="fi-info"></i>
+[global]
+
+[PIDinRootline = 12]
+    page.bodyTagCObject.value= contact
+    lib.parentIcon.value = <i class="fi-telephone"></i>
+[global]
+
+[globalVar = GP:L = 1]
+    config {
+        sys_language_uid = 1
+        language = en
+        htmlTag_langKey = en
+        locale_all = en_EN
+    }
+[global]
+
+[globalVar = GP:L = 2]
+    config {
+        sys_language_uid = 2
+        language = fr
+        htmlTag_langKey = fr
+        locale_all = fr_FR
+    }
+[global]
+
+[globalVar = TSFE:id = {$plugin.tx_tmplfoundation.settings.frontendPids.home}]
+    lib.logo.stdWrap.typolink >
+
+    page {
+        headerData.10 >
+        headerData.10 = TEXT
+        headerData.10.value = <title>{$plugin.tx_tmplfoundation.settings.tagline}</title>
+    }
+[global]

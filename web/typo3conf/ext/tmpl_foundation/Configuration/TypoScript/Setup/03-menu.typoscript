@@ -1,0 +1,86 @@
+lib.languages = HMENU
+lib.languages {
+    special = language
+    special.value = 0,1
+    special.normalWhenNoLanguage = 0
+    addQueryString = 1
+    addQueryString.method = GET
+    wrap = <ul class="languages button-group radius stack-for-small text-center">|</ul>
+    1 = TMENU
+    1.noBlur = 1
+    1 {
+        NO = 1
+        NO {
+            linkWrap = <li>|</li>|*|
+            stdWrap.override.cObject = IMAGE
+            stdWrap.override.cObject {
+                file = es.png || en.png || fr.png
+                file.width = 30
+            }
+            ATagParams = title="Español" alt="Español" class="secondary tiny button" || title="English" alt="English"  class="secondary tiny button" || title="Français" alt="Français"  class="secondary tiny button"
+        }
+        ACT < .NO
+        USERDEF1 < .NO
+        USERDEF1 {
+            doNotLinkIt = 1
+        }
+        USERDEF2 < .ACT
+        USERDEF2 {
+            doNotLinkIt = 1
+        }
+    }
+}
+
+# Setting up menu
+lib.menu {
+    icon_bar = HMENU
+    icon_bar {
+        entryLevel = 0
+        stdWrap.wrap = <div class="icon-bar vertical five-up label-right">|</div>
+        1 = TMENU
+        1 {
+            noBlur = 1
+            expAll = 1
+            NO = 1
+            NO {
+                ATagParams = class="item menu-{field:uid}"
+                ATagParams.insertData = 1
+                ATagBeforeWrap = 1
+                stdWrap.case = upper
+                linkWrap (
+					<i class="fi-home"></i><label>|</label>||
+					<i class="fi-map"></i><label>|</label>||
+					<i class="fi-key"></i><label>|</label>||
+					<i class="fi-mountains"></i><label>|</label>||
+					<i class="fi-trees"></i><label>|</label>||
+					<i class="fi-clipboard-pencil"></i><label>|</label>||
+					<i class="fi-info"></i><label>|</label>||
+					<i class="fi-telephone"></i><label>|</label>|
+                )
+                stdWrap.htmlSpecialChars = 1
+            }
+            ACT < .NO
+            ACT {
+                ATagParams = class="item active menu-{field:uid}"
+            }
+            CUR < .ACT
+        }
+    }
+    submenu_bar = HMENU
+    submenu_bar {
+        entryLevel = 1
+        1 = TMENU
+        1 {
+            noBlur = 1
+            expAll = 1
+            NO = 1
+            NO {
+                wrapItemAndSub = <dd>|</dd>
+                stdWrap.case = upper
+            }
+            ACT < .NO
+            ACT.wrapItemAndSub = <dd class="active">|</dd>
+            CUR.wrapItemAndSub = <dd class="active">|</dd>
+        }
+    }
+}

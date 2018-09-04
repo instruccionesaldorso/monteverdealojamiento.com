@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="es" type="array">
+			<label index="tx_news_domain_model_news.tabs.relations">Relaciones</label>
+			<label index="tx_news_domain_model_news.palettes.alternativeTitles">Títulos alternativos</label>
+			<label index="tx_news_domain_model_news">Noticias</label>
+			<label index="tx_news_domain_model_news.alternative_title">Título alternativo</label>
+			<label index="tx_news_domain_model_news.teaser"/>
+			<label index="tx_news_domain_model_news.datetime"/>
+			<label index="tx_news_domain_model_news.archive"/>
+			<label index="tx_news_domain_model_news.archive.placeholder">Defina cuándo deben aparecer las noticias en el archivo</label>
+			<label index="tx_news_domain_model_news.categories">Categorías</label>
+			<label index="tx_news_domain_model_news.related">Noticias relacionadas</label>
+			<label index="tx_news_domain_model_news.related_from">Noticias relacionadas (de)</label>
+			<label index="tx_news_domain_model_news.fal_related_files">Archivos relacionados</label>
+			<label index="tx_news_domain_model_news.fal_related_files.add">Añadir archivos relacionados</label>
+			<label index="tx_news_domain_model_news.related_links">Enlaces relacionados</label>
+			<label index="tx_news_domain_model_news.type.I.0">Noticias</label>
+			<label index="tx_news_domain_model_news.type.I.1">Enlace interno</label>
+			<label index="tx_news_domain_model_news.type.I.2"/>
+			<label index="tx_news_domain_model_news.fal_media"/>
+			<label index="tx_news_domain_model_news.fal_media.add"/>
+			<label index="tx_news_domain_model_news.istopnews"/>
+			<label index="tx_news_domain_model_news.content_elements"/>
+			<label index="tx_news_domain_model_news.tags"/>
+			<label index="tx_news_domain_model_news.tags.add">Añadir una nueva etiqueta</label>
+			<label index="tx_news_domain_model_news.tags.list">Mostrar todas las etiquetas</label>
+			<label index="tx_news_domain_model_news.tags.edit">Editar etiquetas</label>
+			<label index="tx_news_domain_model_news.keywords.placeholder">Palabra clave 1, palabra clave 2, palabra clave 3</label>
+			<label index="tx_news_domain_model_tag.seo.seo_title">Titulo-etiqueta</label>
+			<label index="tx_news_domain_model_tag.seo.seo_description">Meta- Descripción</label>
+			<label index="tx_news_domain_model_tag.seo.seo_headline"/>
+			<label index="tx_news_domain_model_tag.seo.composeo_text"/>
+			<label index="tx_news_domain_model_category.tabs.seo">SEO</label>
+			<label index="tx_news_domain_model_category.image"/>
+			<label index="tx_news_domain_model_category.single_pid"/>
+			<label index="tx_news_domain_model_category.shortcut"/>
+			<label index="tx_news_domain_model_category.seo.seo_title">Titulo-etiqueta</label>
+			<label index="tx_news_domain_model_category.seo.seo_description">Meta- Descripción</label>
+			<label index="tx_news_domain_model_category.seo.seo_headline"/>
+			<label index="tx_news_domain_model_category.seo.seo_text"/>
+			<label index="tx_news_domain_model_link"/>
+			<label index="tx_news_domain_model_link.title">Título</label>
+			<label index="tx_news_domain_model_link.description">Descripción</label>
+			<label index="tx_news_domain_model_link.uri">URL</label>
+			<label index="tx_news_domain_model_link.uri.placeholder">www.dominio.org</label>
+			<label index="tx_news_domain_model_tag.tabs.seo">SEO</label>
+			<label index="tx_news_domain_model_tag">Nuevas etiqueta</label>
+			<label index="tx_news_domain_model_tag.title">Título</label>
+			<label index="tx_news_domain_model_media.showinpreview">Mostrar en la vista de lista</label>
+			<label index="tx_news_domain_model_news.path_segment"/>
+			<label index="be_user.tx_news_categorymounts">Noticias: Categoría restricción</label>
+			<label index="notes"/>
+		</languageKey>
+  </data>
+</T3locallangExt>

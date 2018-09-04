@@ -1,0 +1,24 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      data-namespace-typo3-fluid="true">
+
+    <f:render partial="Header" />
+
+    <div class="row">
+        <div class="small-18 medium-3 large-4 columns">
+            <f:cObject typoscriptObjectPath="lib.menu.icon_bar" />
+            <f:comment>
+                <f:cObject typoscriptObjectPath="lib.languages" />
+            </f:comment>
+        </div>
+        <div class="small-18 medium-15 large-14 columns">
+            <f:if condition="{data.uid} != {settings.frontendPids.home}">
+                <f:render partial="Subnavigation" />
+            </f:if>
+            <article class="content" role="content">
+                <v:content.render column="0" />
+            </article>
+            <f:render partial="Footer" />
+        </div>
+    </div>
+
+</html>

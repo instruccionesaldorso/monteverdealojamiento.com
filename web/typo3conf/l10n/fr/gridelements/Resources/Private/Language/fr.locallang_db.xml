@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="fr" type="array">
+		<label index="allowedElementTypes">Éléments de contenu autorisés</label>
+		<label index="allowedElementTypesHelp">Sélectionnez les types d'élément de contenu autorisés à être créés ou déplacés ici.</label>
+		<label index="allowedGridElementTypes">Grilles autorisées</label>
+		<label index="allowedGridElementTypesHelp">Sélectionnez les types "Gridelements" autorisés à être créés ou déplacés ici.</label>
+		<label index="dragAndDropHideNewElementWizardInfoOverlay">Cacher les informations au survol dans l'assistant "glisser/déposer" de création d'un élément de contenu.</label>
+		<label index="gridElements">Éléments de grille</label>
+		<label index="hideColumnHeaders">Cacher les en-têtes de colonne.</label>
+		<label index="hideContentPreview">Cacher l'aperçu des éléments de contenu.</label>
+		<label index="list.collapseElement">Réduire la liste des éléments enfants</label>
+		<label index="list.expandElement">Étendre la liste des éléments enfants</label>
+		<label index="list.collapseAllElements">Réduire les conteneurs de grille</label>
+		<label index="list.expandAllElements">Étendre les conteneurs de grille</label>
+		<label index="list.columnName">Colonne:</label>
+		<label index="showGridInformation">Afficher les informations sur la mise en page des grilles.</label>
+		<label index="tt_content.CType_pi1">Élément de grille</label>
+		<label index="tt_content.tx_gridelements_backend_layout">Mise en page de grille</label>
+		<label index="tt_content.tx_gridelements_backend_layout.I.horizontal">Colonnes dynamiques (horizontales)</label>
+		<label index="tt_content.tx_gridelements_backend_layout.I.none">Aucun</label>
+		<label index="tt_content.tx_gridelements_backend_layout.I.vertical">Lignes dynamiques (verticales)</label>
+		<label index="tt_content.tx_gridelements_children">Éléments de contenu</label>
+		<label index="tt_content.tx_gridelements_columns">Colonnes du conteneur de grille</label>
+		<label index="tt_content.tx_gridelements_container">Conteneur de grille</label>
+		<label index="tx_gridelements_backend_layout">Mise en page backend des éléments de contenu</label>
+		<label index="tx_gridelements_backend_layout.alias">Alias</label>
+		<label index="tx_gridelements_backend_layout.ce_configuration">Configuration de l'élément de contenu</label>
+		<label index="tx_gridelements_backend_layout.config">Configuration de la grille</label>
+		<label index="tx_gridelements_backend_layout.description">Description</label>
+		<label index="tx_gridelements_backend_layout.div.configuration">Configuration</label>
+		<label index="tx_gridelements_backend_layout.frame">Cadre</label>
+		<label index="tx_gridelements_backend_layout.frame.I.-1">Neutre</label>
+		<label index="tx_gridelements_backend_layout.frame.I.0">-</label>
+		<label index="tx_gridelements_backend_layout.frame.I.1">Rouge</label>
+		<label index="tx_gridelements_backend_layout.frame.I.2">Vert</label>
+		<label index="tx_gridelements_backend_layout.frame.I.3">Bleu</label>
+		<label index="tx_gridelements_backend_layout.horizontal">Enfants du groupe</label>
+		<label index="tx_gridelements_backend_layout.horizontal.I.0">Côte-à-côte</label>
+		<label index="tx_gridelements_backend_layout.icon">Icône</label>
+		<label index="tx_gridelements_backend_layout.palette.appearance">Apparence</label>
+		<label index="tx_gridelements_backend_layout.pi_flexform_ds">Configuration FlexForm</label>
+		<label index="tx_gridelements_backend_layout.pi_flexform_ds_file">Fichier de configuration FlexForm (surcharge le champs ci-dessus)</label>
+		<label index="tx_gridelements_backend_layout.title">Titre</label>
+		<label index="tx_gridelements_backend_layout.top_level_layout">Mise en page de niveau supérieur</label>
+		<label index="tx_gridelements_backend_layout_wizard_label">Éléments de grille</label>
+		<label index="tx_gridelements_clickmenu_pastereference">Coller la référence après</label>
+		<label index="tx_gridelements_js.allowedElementTypes">Éléments de contenu autorisés</label>
+		<label index="tx_gridelements_js.allowedGridElementTypes">Grilles autorisées</label>
+		<label index="tx_gridelements_js.copyfrompage">Copier un élément de contenu d'une autre page</label>
+		<label index="tx_gridelements_js.drophere">Déposez ici</label>
+		<label index="tx_gridelements_js.missingcontenttemplate">Mise en page de l'élément de contenu manquant</label>
+		<label index="tx_gridelements_js.newcontentelementheader">Nouveau</label>
+		<label index="tx_gridelements_js.pasteinto">Coller dans cette colonne</label>
+		<label index="tx_gridelements_js.pasteafter">Coller après cet enregistrement</label>
+		<label index="tx_gridelements_js.pastecopy">Coller la copie dans cette colonne</label>
+		<label index="tx_gridelements_js.modal.pastecopy">Comment voulez-vous coller le contenu du presse-papier?</label>
+		<label index="tx_gridelements_js.modal.button.pastecopy">Coller une copie</label>
+		<label index="tx_gridelements_js.pastereference">Coller la référence dans cette colonne</label>
+		<label index="tx_gridelements_js.modal.button.pastereference">Coller la référence</label>
+		<label index="tx_gridelements_collapsecontent">Réduire le contenu dans la colonne</label>
+		<label index="tx_gridelements_expandcontent">Étendre le contenu dans la colonne</label>
+		<label index="tx_gridelements_contentcollapsed">Cette colonne est réduite!</label>
+		</languageKey>
+  </data>
+</T3locallangExt>

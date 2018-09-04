@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="beuser" target-language="ca">
+    <header/>
+    <body>
+      <trans-unit id="pageTitle" xml:space="preserve">
+        <source>Page title:</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Títol de la pàgina:</target></alt-trans></trans-unit>
+      <trans-unit id="path" xml:space="preserve">
+        <source>Path:</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Ruta:</target></alt-trans></trans-unit>
+      <trans-unit id="user" xml:space="preserve">
+        <source>User:</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Usuari:</target></alt-trans></trans-unit>
+      <trans-unit id="group" xml:space="preserve">
+        <source>Group:</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Grup:</target></alt-trans></trans-unit>
+      <trans-unit id="everybody" xml:space="preserve">
+        <source>Everybody:</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Tothom:</target></alt-trans></trans-unit>
+      <trans-unit id="thisUser" xml:space="preserve">
+        <source>This user:</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Aquest usuari:</target></alt-trans></trans-unit>
+      <trans-unit id="mainGroup" xml:space="preserve">
+        <source>Main group:</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>El grup Principal:</target></alt-trans></trans-unit>
+      <trans-unit id="editLock" xml:space="preserve">
+        <source>Edit lock prevents all editing</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>El bloqueig d'edició evita qualsevol modificació</target></alt-trans></trans-unit>
+      <trans-unit id="noReadAccess" xml:space="preserve">
+        <source>The user has no read-access to these DB-mounts!</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>L'usuari no té permisos de lectura per aquests dipòsits de base de dades!</target></alt-trans></trans-unit>
+      <trans-unit id="live" xml:space="preserve">
+        <source>[LIVE]</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>[REAL]</target></alt-trans></trans-unit>
+      <trans-unit id="defaultDraft" xml:space="preserve">
+        <source>[Default Draft]</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>[Proves per defecte]</target></alt-trans></trans-unit>
+      <trans-unit id="notAccessible" xml:space="preserve">
+        <source>WARNING: Workspace Webmount page id not accessible:</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>ATENCIÓ: L'identificador de la pàgina ,del dispòsit de pàgines web, de l'entorn de treball, no esta accessible:</target></alt-trans></trans-unit>
+      <trans-unit id="compareUserSettings" xml:space="preserve">
+        <source>Compare User Settings</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Compara les configuracions d'usuari</target></alt-trans></trans-unit>
+      <trans-unit id="listUsersOnline" xml:space="preserve">
+        <source>List Users Online</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Llista els usuaris que estan en línia</target></alt-trans></trans-unit>
+      <trans-unit id="backendUserAdministration" xml:space="preserve">
+        <source>Backend User Administration</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Usuari d'Administració del Backend </target></alt-trans></trans-unit>
+      <trans-unit id="filemounts" xml:space="preserve">
+        <source>Filemounts</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Dipòsit de fitxers</target></alt-trans></trans-unit>
+      <trans-unit id="webmounts" xml:space="preserve">
+        <source>Webmounts</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Dipòsit de les webs</target></alt-trans></trans-unit>
+      <trans-unit id="defaultUploadPath" xml:space="preserve">
+        <source>Default upload path</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Ruta de pujada, per defecte </target></alt-trans></trans-unit>
+      <trans-unit id="mainUserGroup" xml:space="preserve">
+        <source>Main user group</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Grup principal d'usuaris</target></alt-trans></trans-unit>
+      <trans-unit id="memberOfGroups" xml:space="preserve">
+        <source>Member of groups</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Membre dels grups</target></alt-trans></trans-unit>
+      <trans-unit id="pageTypesAccess" xml:space="preserve">
+        <source>Page types access</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Accés al tipus de pàgines</target></alt-trans></trans-unit>
+      <trans-unit id="selectTables" xml:space="preserve">
+        <source>Select tables</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Selecciona les taules</target></alt-trans></trans-unit>
+      <trans-unit id="modifyTables" xml:space="preserve">
+        <source>Modify tables</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Modifica les taules</target></alt-trans></trans-unit>
+      <trans-unit id="nonExcludeFields" xml:space="preserve">
+        <source>Non-exclude fields</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Camps que no es poden excloure</target></alt-trans></trans-unit>
+      <trans-unit id="explicitAllowDeny" xml:space="preserve">
+        <source>Explicit Allow/Deny</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Explícit Permetre/Denegar</target></alt-trans></trans-unit>
+      <trans-unit id="limitToLanguages" xml:space="preserve">
+        <source>Limit to languages</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Limitat als idiomes</target></alt-trans></trans-unit>
+      <trans-unit id="workspacePermissions" xml:space="preserve">
+        <source>Workspace permissions</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Permisos de l'entorn de treball</target></alt-trans></trans-unit>
+      <trans-unit id="workspaceMembership" xml:space="preserve">
+        <source>Workspace membership</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>membre afiliat a l'entorn de treball</target></alt-trans></trans-unit>
+      <trans-unit id="customOptions" xml:space="preserve">
+        <source>Custom options</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Opcions personalitzades</target></alt-trans></trans-unit>
+      <trans-unit id="modules" xml:space="preserve">
+        <source>Modules</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Mòduls</target></alt-trans></trans-unit>
+      <trans-unit id="tsconfig" xml:space="preserve">
+        <source>TSconfig</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>TSconfig</target></alt-trans></trans-unit>
+      <trans-unit id="tsconfigHL" xml:space="preserve">
+        <source>TSconfig HL</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>TSconfig HL</target></alt-trans></trans-unit>
+      <trans-unit id="nonMountedReadablePages" xml:space="preserve">
+        <source>Non-mounted readable pages:</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Pàgines llegides no montades:</target></alt-trans></trans-unit>
+      <trans-unit id="backToOverview" xml:space="preserve">
+        <source>&lt; Back to overview</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>&lt; Retorna a l'informació general</target></alt-trans></trans-unit>
+      <trans-unit id="userInfo" xml:space="preserve">
+        <source>User Info</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Informació d'usuari </target></alt-trans></trans-unit>
+      <trans-unit id="groupBy" xml:space="preserve">
+        <source>Group by:</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Agrupat per:</target></alt-trans></trans-unit>
+      <trans-unit id="update" xml:space="preserve">
+        <source>Update</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Gravar</target></alt-trans></trans-unit>
+      <trans-unit id="groupAndCompareUsers" xml:space="preserve">
+        <source>Group and Compare Users</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Agrupar i Comparar Usuaris</target></alt-trans></trans-unit>
+      <trans-unit id="tooManyUsers" xml:space="preserve">
+        <source>There were too many users:</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Hi havien masses usuaris:</target></alt-trans></trans-unit>
+      <trans-unit id="canOnlyDisplay" xml:space="preserve">
+        <source>This tool can only display the following number of users at a time:</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Aquesta eina tant sols pot mostrar el següent número d'usuaris al mateix temps:</target></alt-trans></trans-unit>
+      <trans-unit id="newUser" xml:space="preserve">
+        <source>Create new user</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Crear nou usuari</target></alt-trans></trans-unit>
+      <trans-unit id="usernames" xml:space="preserve">
+        <source>Usernames:</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Noms d'usuari:</target></alt-trans></trans-unit>
+      <trans-unit id="switchUserTo" xml:space="preserve">
+        <source>Switch user to:</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Canvia l''usuari a:</target></alt-trans></trans-unit>
+      <trans-unit id="changeToMode" xml:space="preserve">
+        <source>[change-to mode]</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>[canvia al mode]</target></alt-trans></trans-unit>
+      <trans-unit id="switchBackMode" xml:space="preserve">
+        <source>[switch-back mode]</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>[retorna al mode]</target></alt-trans></trans-unit>
+      <trans-unit id="cachedGrouplistsUpdated" xml:space="preserve">
+        <source>(All cached group-lists updated.)</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>(totes les llistes de grups han estat gravades.)</target></alt-trans></trans-unit>
+      <trans-unit id="result" xml:space="preserve">
+        <source>Result</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Resultat</target></alt-trans></trans-unit>
+      <trans-unit id="showInformation" xml:space="preserve">
+        <source>Show information</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Mostra la informació</target></alt-trans></trans-unit>
+      <trans-unit id="sureToDelete" xml:space="preserve">
+        <source>Are you sure you want to delete this element?</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Estas segur que vols esborrar aquest element?</target></alt-trans></trans-unit>
+      <trans-unit id="delete" xml:space="preserve">
+        <source>Delete(!)</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Esborra'l(!)</target></alt-trans></trans-unit>
+      <trans-unit id="timestamp" xml:space="preserve">
+        <source>Timestamp:</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Marca de Temps:</target></alt-trans></trans-unit>
+      <trans-unit id="host" xml:space="preserve">
+        <source>Host:</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Servidor:</target></alt-trans></trans-unit>
+      <trans-unit id="username" xml:space="preserve">
+        <source>Username:</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Nom d'usuari:</target></alt-trans></trans-unit>
+      <trans-unit id="whoIsOnline" xml:space="preserve">
+        <source>Who Is Online</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Qui esta connectat</target></alt-trans></trans-unit>
+    </body>
+  </file>
+</xliff>

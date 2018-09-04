@@ -1,0 +1,75 @@
+{
+  "name": "instruccionesaldorso/monteverdealojamiento.com",
+  "description": "Monteverdealojamiento.com website",
+  "authors": [
+    {
+      "name": "Sergio Catala",
+      "email": "info@instruccionesaldorso.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://composer.typo3.org/"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/dmitryd/typo3-realurl.git"
+    }
+  ],
+  "require": {
+    "typo3/cms-backend": "^8.7",
+    "typo3/cms-belog": "^8.7",
+    "typo3/cms-beuser": "^8.7",
+    "typo3/cms-context-help": "^8.7",
+    "typo3/cms-core": "^8.7",
+    "typo3/cms-css-styled-content": "^8.7",
+    "typo3/cms-extbase": "^8.7",
+    "typo3/cms-extensionmanager": "^8.7",
+    "typo3/cms-filelist": "^8.7",
+    "typo3/cms-filemetadata": "^8.7",
+    "typo3/cms-fluid": "^8.7",
+    "typo3/cms-fluid-styled-content": "^8.7",
+    "typo3/cms-frontend": "^8.7",
+    "typo3/cms-func": "^8.7",
+    "typo3/cms-info": "^8.7",
+    "typo3/cms-info-pagetsconfig": "^8.7",
+    "typo3/cms-install": "^8.7",
+    "typo3/cms-lang": "^8.7",
+    "typo3/cms-linkvalidator": "^8.7",
+    "typo3/cms-lowlevel": "^8.7",
+    "typo3/cms-recordlist": "^8.7",
+    "typo3/cms-reports": "^8.7",
+    "typo3/cms-rsaauth": "^8.7",
+    "typo3/cms-rte-ckeditor": "^8.7",
+    "typo3/cms-saltedpasswords": "^8.7",
+    "typo3/cms-scheduler": "^8.7",
+    "typo3/cms-setup": "^8.7",
+    "typo3/cms-sv": "^8.7",
+    "typo3/cms-t3editor": "^8.7",
+    "typo3/cms-tstemplate": "^8.7",
+    "typo3/cms-viewpage": "^8.7",
+    "typo3/cms-wizard-crpages": "^8.7",
+    "typo3-ter/powermail": "^6.1",
+    "typo3-ter/go-maps-ext": "^2.5",
+    "georgringer/news": "^7.0",
+    "dmitryd/typo3-realurl": "^2.4",
+    "helhum/typo3-console": "^5.5",
+    "typo3-console/composer-auto-commands": "^0.2",
+    "typo3-ter/vhs": "^5.0",
+    "typo3-ter/gridelements": "^8.2",
+    "typo3-ter/min": "^1.4",
+    "typo3-ter/slick": "^4.0",
+    "typo3-ter/jh-magnificpopup": "^1.0"
+  },
+  "extra": {
+    "helhum/typo3-console": {
+      "install-binary": false,
+      "install-extension-dummy": false
+    },
+    "typo3/cms": {
+      "cms-package-dir": "vendor/typo3/cms",
+      "web-dir": "web"
+    }
+  }
+}

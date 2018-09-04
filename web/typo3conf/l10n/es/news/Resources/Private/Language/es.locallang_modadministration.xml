@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="es" type="array">
+			<label index="mlang_tabs_tab">Administración de noticias</label>
+			<label index="mlang_labels_tablabel">Administrar registros de noticias en un módulo independiente</label>
+			<label index="mlang_labels_tabdescr"/>
+		</languageKey>
+  </data>
+</T3locallangExt>

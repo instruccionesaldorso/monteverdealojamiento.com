@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="belog" target-language="ca">
+    <header/>
+    <body>
+      <trans-unit id="chLog_title" xml:space="preserve">
+        <source>Admin Changelog</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Registre de Canvis de l'Administrador</target></alt-trans></trans-unit>
+      <trans-unit id="chLog_users_0" xml:space="preserve">
+        <source>All users</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Tots els usuaris </target></alt-trans></trans-unit>
+      <trans-unit id="chLog_users_-1" xml:space="preserve">
+        <source>Self</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Pròpi</target></alt-trans></trans-unit>
+      <trans-unit id="chLog_time_0" xml:space="preserve">
+        <source>This week</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Aquesta setmana</target></alt-trans></trans-unit>
+      <trans-unit id="chLog_time_1" xml:space="preserve">
+        <source>Last week</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>L'última setmana</target></alt-trans></trans-unit>
+      <trans-unit id="chLog_time_2" xml:space="preserve">
+        <source>Last 7 days</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Els últims 7 dies</target></alt-trans></trans-unit>
+      <trans-unit id="chLog_time_10" xml:space="preserve">
+        <source>This month</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Aquest mes</target></alt-trans></trans-unit>
+      <trans-unit id="chLog_time_11" xml:space="preserve">
+        <source>Last month</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>El darrer mes</target></alt-trans></trans-unit>
+      <trans-unit id="chLog_time_12" xml:space="preserve">
+        <source>Last 31 days</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Els últims 31 dies</target></alt-trans></trans-unit>
+      <trans-unit id="chLog_time_20" xml:space="preserve">
+        <source>No limit</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Sense límit</target></alt-trans></trans-unit>
+      <trans-unit id="chLog_l_time" xml:space="preserve">
+        <source>Time</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Temps</target></alt-trans></trans-unit>
+      <trans-unit id="chLog_l_user" xml:space="preserve">
+        <source>User</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Usuari</target></alt-trans></trans-unit>
+      <trans-unit id="chLog_l_error" xml:space="preserve">
+        <source>E</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>E</target></alt-trans></trans-unit>
+      <trans-unit id="chLog_l_action" xml:space="preserve">
+        <source>Action</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Acció</target></alt-trans></trans-unit>
+      <trans-unit id="chLog_l_table" xml:space="preserve">
+        <source>Table</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Taula</target></alt-trans></trans-unit>
+      <trans-unit id="chLog_l_details" xml:space="preserve">
+        <source>Details</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Detalls</target></alt-trans></trans-unit>
+      <trans-unit id="chLog_menuUsers" xml:space="preserve">
+        <source>Users</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Usuaris</target></alt-trans></trans-unit>
+      <trans-unit id="chLog_menuDepth" xml:space="preserve">
+        <source>Depth</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Profunditat</target></alt-trans></trans-unit>
+      <trans-unit id="chLog_menuTime" xml:space="preserve">
+        <source>Time</source>
+      <target/><alt-trans xml:space="preserve" origin="xescjp"><target>Temps</target></alt-trans></trans-unit>
+    </body>
+  </file>
+</xliff>

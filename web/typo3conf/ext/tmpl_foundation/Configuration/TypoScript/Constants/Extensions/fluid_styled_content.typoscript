@@ -1,0 +1,8 @@
+styles {
+    content.textmedia.maxW = 960
+    templates {
+        templateRootPath = {$plugin.tx_tmplfoundation.view.templateRootPath}Extensions/fluid_styled_content/
+        partialRootPath = {$plugin.tx_tmplfoundation.view.partialRootPath}Extensions/fluid_styled_content/
+        layoutRootPath = {$plugin.tx_tmplfoundation.view.layoutRootPath}Extensions/fluid_styled_content/
+    }
+}

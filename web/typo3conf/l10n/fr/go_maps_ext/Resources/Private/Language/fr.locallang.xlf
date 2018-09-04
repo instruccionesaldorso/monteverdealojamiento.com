@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-12-23T14:21:42Z" target-language="fr">
+		<header>
+			<description>Language labels for the Google Maps API Extbase extension in the FRONTEND</description>
+			<authorName>Marc Hirdes</authorName>
+			<authorEmail>marc_hirdes@gmx.de</authorEmail>
+			<generator>LFEditor</generator>
+		</header>
+		<body>
+		<trans-unit id="partials.map.form.error">
+			<source>No addresses were found.</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_address" approved="yes">
+			<source>Google Maps Address</source>
+		<target state="translated">Adresse Google Maps</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_address.address" approved="yes">
+			<source>address</source>
+		<target state="translated">adresse</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_address.close_by_click">
+			<source>closeByClick</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_address.configuration_map">
+			<source>configurationMap</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_address.image_height">
+			<source>imageHeight</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_address.image_size">
+			<source>imageSize</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_address.image_width">
+			<source>imageWidth</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_address.info_window_content">
+			<source>infoWindowContent</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_address.info_window_link">
+			<source>infoWindowLink</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_address.latitude">
+			<source>latitude</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_address.longitude">
+			<source>longitude</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_address.marker">
+			<source>marker</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_address.open_by_click">
+			<source>openByClick</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_address.title">
+			<source>title</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map" approved="yes">
+			<source>Map</source>
+		<target state="translated">Carte</target><note>100%</note></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.addresses" approved="no">
+			<source>addresses</source>
+		<target state="needs-translation">adresse</target><note>77%</note></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.calc_route">
+			<source>calcRoute</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.class">
+			<source>class</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.default_type">
+			<source>defaultType</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.double_click_zoom">
+			<source>doubleClickZoom</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.draggable">
+			<source>draggable</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.height" approved="yes">
+			<source>in px</source>
+		<target state="translated">en px</target><note>100%</note></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.kml_url">
+			<source>kmlUrl</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.map_type_control">
+			<source>mapTypeControl</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.map_types">
+			<source>mapTypes</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.pan_control">
+			<source>panControl</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.scale_control">
+			<source>scaleControl</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.scroll_zoom">
+			<source>scrollZoom</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.show_route">
+			<source>showRoute</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.streetview_control">
+			<source>streetviewControl</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.styled_map_code">
+			<source>styledMapCode</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.styled_map_name">
+			<source>styledMapName</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.title" approved="yes">
+			<source>Title* (without space character, special character!)</source>
+		<target state="translated">Titre* (sans espaces, ni caractères spéciaux!)</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.tooltip_title">
+			<source>tooltipTitle</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.travel_mode.0" approved="yes">
+			<source>Driving</source>
+		<target state="translated">En voiture</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.travel_mode.2" approved="yes">
+			<source>Bicycling</source>
+		<target state="translated">A vélo</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.travel_mode.3">
+			<source>Transit</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.travel_mode.4">
+			<source>Walking</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.unit_system.2">
+			<source>km</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.unit_system.3">
+			<source>mil</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.width" approved="yes">
+			<source>in px</source>
+		<target state="translated">en px</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.zoom">
+			<source>zoom</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.zoom_control">
+			<source>zoomControl</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.zoom_control_type">
+			<source>zoomControlType</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_flexform_settings" approved="yes">
+			<source>Settings</source>
+		<target state="translated">Paramètres</target></trans-unit>
+		<trans-unit id="tx_gomapsext_flexform_settings.map" approved="yes">
+			<source>Map</source>
+		<target state="translated">Carte</target></trans-unit>
+		<trans-unit id="tx_gomapsext_partials_map_assign.alert" approved="yes">
+			<source>Please enter a valid address.</source>
+		<target state="translated">Veuillez entrer une adresse valide.</target></trans-unit>
+		<trans-unit id="tx_gomapsext_partials_map_assign.infoWindowLinkText" approved="yes">
+			<source>Calculate Route</source>
+		<target state="translated">Calculer l'itinéraire</target></trans-unit>
+		<trans-unit id="tx_gomapsext_partials_map_assign.noSearchResults" approved="yes">
+			<source>No results found.</source>
+		<target state="translated">Aucun résultat trouvé.</target></trans-unit>
+		<trans-unit id="tx_gomapsext_partials_map_assign.submit" approved="yes">
+			<source>Calculate Route</source>
+		<target state="translated">Calculer l'itinéraire</target></trans-unit>
+		<trans-unit id="tx_gomapsext_partials_map_assign.submitSearch" approved="yes">
+			<source>Search</source>
+		<target state="translated">Rechercher</target></trans-unit>
+		</body>
+	</file>
+</xliff>

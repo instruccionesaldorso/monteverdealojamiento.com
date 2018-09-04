@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="fr" type="array">
+		<label index="partials.map.form.error"/>
+		<label index="tx_gomapsext_domain_model_address">Adresse Google Maps</label>
+		<label index="tx_gomapsext_domain_model_address.address">adresse</label>
+		<label index="tx_gomapsext_domain_model_address.close_by_click"/>
+		<label index="tx_gomapsext_domain_model_address.configuration_map"/>
+		<label index="tx_gomapsext_domain_model_address.image_height"/>
+		<label index="tx_gomapsext_domain_model_address.image_size"/>
+		<label index="tx_gomapsext_domain_model_address.image_width"/>
+		<label index="tx_gomapsext_domain_model_address.info_window_content"/>
+		<label index="tx_gomapsext_domain_model_address.info_window_link"/>
+		<label index="tx_gomapsext_domain_model_address.latitude"/>
+		<label index="tx_gomapsext_domain_model_address.longitude"/>
+		<label index="tx_gomapsext_domain_model_address.marker"/>
+		<label index="tx_gomapsext_domain_model_address.open_by_click"/>
+		<label index="tx_gomapsext_domain_model_address.title"/>
+		<label index="tx_gomapsext_domain_model_map">Carte</label>
+		<label index="tx_gomapsext_domain_model_map.addresses">adresse</label>
+		<label index="tx_gomapsext_domain_model_map.calc_route"/>
+		<label index="tx_gomapsext_domain_model_map.class"/>
+		<label index="tx_gomapsext_domain_model_map.default_type"/>
+		<label index="tx_gomapsext_domain_model_map.double_click_zoom"/>
+		<label index="tx_gomapsext_domain_model_map.draggable"/>
+		<label index="tx_gomapsext_domain_model_map.height">en px</label>
+		<label index="tx_gomapsext_domain_model_map.kml_url"/>
+		<label index="tx_gomapsext_domain_model_map.map_type_control"/>
+		<label index="tx_gomapsext_domain_model_map.map_types"/>
+		<label index="tx_gomapsext_domain_model_map.pan_control"/>
+		<label index="tx_gomapsext_domain_model_map.scale_control"/>
+		<label index="tx_gomapsext_domain_model_map.scroll_zoom"/>
+		<label index="tx_gomapsext_domain_model_map.show_route"/>
+		<label index="tx_gomapsext_domain_model_map.streetview_control"/>
+		<label index="tx_gomapsext_domain_model_map.styled_map_code"/>
+		<label index="tx_gomapsext_domain_model_map.styled_map_name"/>
+		<label index="tx_gomapsext_domain_model_map.title">Titre* (sans espaces, ni caractères spéciaux!)</label>
+		<label index="tx_gomapsext_domain_model_map.tooltip_title"/>
+		<label index="tx_gomapsext_domain_model_map.travel_mode.0">En voiture</label>
+		<label index="tx_gomapsext_domain_model_map.travel_mode.2">A vélo</label>
+		<label index="tx_gomapsext_domain_model_map.travel_mode.3"/>
+		<label index="tx_gomapsext_domain_model_map.travel_mode.4"/>
+		<label index="tx_gomapsext_domain_model_map.unit_system.2"/>
+		<label index="tx_gomapsext_domain_model_map.unit_system.3"/>
+		<label index="tx_gomapsext_domain_model_map.width">en px</label>
+		<label index="tx_gomapsext_domain_model_map.zoom"/>
+		<label index="tx_gomapsext_domain_model_map.zoom_control"/>
+		<label index="tx_gomapsext_domain_model_map.zoom_control_type"/>
+		<label index="tx_gomapsext_flexform_settings">Paramètres</label>
+		<label index="tx_gomapsext_flexform_settings.map">Carte</label>
+		<label index="tx_gomapsext_partials_map_assign.alert">Veuillez entrer une adresse valide.</label>
+		<label index="tx_gomapsext_partials_map_assign.infoWindowLinkText">Calculer l'itinéraire</label>
+		<label index="tx_gomapsext_partials_map_assign.noSearchResults">Aucun résultat trouvé.</label>
+		<label index="tx_gomapsext_partials_map_assign.submit">Calculer l'itinéraire</label>
+		<label index="tx_gomapsext_partials_map_assign.submitSearch">Rechercher</label>
+		</languageKey>
+  </data>
+</T3locallangExt>

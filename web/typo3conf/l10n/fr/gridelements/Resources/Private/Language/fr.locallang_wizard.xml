@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="fr" type="array">
+			<label index="grid_maxitems"/>
+			<label index="grid_maxitemsHelp"/>
+			<label index="grid_allowed"/>
+			<label index="grid_allowedHelp"/>
+			<label index="grid_allowedGridTypes"/>
+			<label index="grid_allowedGridTypesHelp"/>
+			<label index="grid_allowedListTypes"/>
+			<label index="grid_allowedListTypesHelp"/>
+			<label index="grid_disallowed"/>
+			<label index="grid_disallowedHelp"/>
+			<label index="grid_disallowedGridTypes"/>
+			<label index="grid_disallowedGridTypesHelp"/>
+			<label index="grid_disallowedListTypes"/>
+			<label index="grid_disallowedListTypesHelp"/>
+		</languageKey>
+  </data>
+</T3locallangExt>

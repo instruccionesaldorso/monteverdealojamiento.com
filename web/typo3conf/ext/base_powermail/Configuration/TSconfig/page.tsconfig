@@ -1,0 +1,5 @@
+tx_powermail.flexForm {
+    type.addFieldOptions {
+        RangeSlider = Range slider
+    }
+}

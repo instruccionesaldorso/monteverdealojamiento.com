@@ -1,0 +1,94 @@
+page = PAGE
+page {
+    typeNum = 0
+
+    meta {
+        description {
+            field = description
+            ifEmpty = {$plugin.tx_tmplfoundation.settings.meta.description}
+        }
+        keywords {
+            field = keywords
+            ifEmpty = {$plugin.tx_tmplfoundation.settings.meta.keywords}
+        }
+        viewport = width=device-width, initial-scale=1.0
+    }
+
+    headerData {
+        10 = TEXT
+        10 {
+            field = nav_title // title
+            noTrimWrap = |<title>{$plugin.tx_tmplfoundation.settings.tagline} - |</title>|
+        }
+    }
+
+    shortcutIcon = /favicon.ico
+
+    includeCSS {
+        normalize = /build/css/normalize-3.0.2.css
+        normalize.media = all
+
+        foundation = /build/css/foundation.css
+        foundation.media = all
+
+        foundation-icons = /build/css/foundation-icons-3.css
+        foundation-icons.media = all
+
+        #select2 = EXT:tmpl_foundation/Resources/Public/Js/Vendor/Select2/select2.css
+        #select2.media = all
+
+        google-font = //fonts.googleapis.com/css?family=Roboto+Condensed
+        google-font.external = 1
+
+        app = /build/css/app.css
+        app.media = all
+    }
+
+    includeJSLibs {
+        modernizr = /build/js/modernizr-2.8.2.js
+        jquery = /build/js/jquery-1.12.4.js
+        jquery-migrate = /build/js/jquery-migrate-1.2.1.js
+    }
+
+    bodyTag >
+    bodyTagCObject = TEXT
+    bodyTagCObject.value = <body>
+
+    10 = FLUIDTEMPLATE
+    10 {
+        file.stdWrap.cObject = TEXT
+        file.stdWrap.cObject {
+            data = levelfield:-2,backend_layout_next_level,slide
+            override.field = backend_layout
+            split {
+                token = pagets__
+                1.current = 1
+                1.wrap = |
+            }
+            wrap = {$plugin.tx_tmplfoundation.view.templateRootPath}Page/|.html
+        }
+
+        ## Layouts and partials
+        layoutRootPath = {$plugin.tx_tmplfoundation.view.layoutRootPath}Page/
+        partialRootPath = {$plugin.tx_tmplfoundation.view.partialRootPath}Page/
+
+        settings {
+            frontendPids {
+                home = {$plugin.tx_tmplfoundation.settings.frontendPids.home}
+                news = {$plugin.tx_tmplfoundation.settings.frontendPids.news}
+                contact = {$plugin.tx_tmplfoundation.settings.frontendPids.contact}
+                prices = {$plugin.tx_tmplfoundation.settings.frontendPids.prices}
+            }
+        }
+    }
+
+    includeJSFooterlibs {
+        fastclick = /build/js/fastclick.js
+        foundation = /build/js/foundation.js
+        foundation-slider = /build/js/foundation.slider.js
+        foundation-equalizer = /build/js/foundation.equalizer.js
+        foundation-abide = /build/js/foundation.abide.js
+        foundation-reveal = /build/js/foundation.reveal.js
+        app = /build/js/app.js
+    }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="fr" type="array">
+		<label index="address.description">Veuillez entrer une adresse ou des coordonnées dans le champ ci-dessous et appuyer sur mettre à jour.</label>
+		<label index="close_by_click.description"/>
+		<label index="configuration_map.description">Entrez une adresse (numéro de la rue, ville, code postal) ou des coordonnées (latitude, longitude) et appuyez sur 'Mettre à jour', ou encore glissez et déposez le marqueur.</label>
+		<label index="image_height.description">Hauteur personnalisée de l'image en pixels.</label>
+		<label index="image_size.description">Cocher si l'image a une taille différente que la taille par défaut.</label>
+		<label index="image_width.description">Largeur personnalisées de l'image en pixels.</label>
+		<label index="info_window_content.description">Ceci sera affiché dans l'InfoWindow de ce marqueur.</label>
+		<label index="info_window_link.description"/>
+		<label index="latitude.description">Veuillez entrer une adresse ou des coordonnées sur le champ de position ci-dessus et appuyer sur mettre à jour.</label>
+		<label index="longitude.description">Veuillez entrer une adresse ou des coordonnées sur le champ de position ci-dessus et appuyer sur mettre à jour.</label>
+		<label index="marker.description">Choisir une image personnalisée pour le marqueur.</label>
+		<label index="open_by_click.description"/>
+		<label index="opened.description"/>
+		</languageKey>
+  </data>
+</T3locallangExt>

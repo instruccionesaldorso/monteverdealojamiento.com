@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2016-08-01T07:19:58Z" target-language="fr">
+		<header>
+			<description>Context Sensitive Help (CSH) for table tx_gomapsext_domain_model_address</description>
+			<type>CSH</type>
+			<csh_table>tx_gomapsext_domain_model_address</csh_table>
+			<authorName>Marc Hirdes</authorName>
+			<authorEmail>marc_hirdes@gmx.de</authorEmail>
+			<generator>LFEditor</generator>
+		</header>
+		<body>
+		<trans-unit id="address.description" approved="yes">
+			<source>Please enter an address or coordinates on the position field above and press update.</source>
+		<target state="translated">Veuillez entrer une adresse ou des coordonnées dans le champ ci-dessous et appuyer sur mettre à jour.</target></trans-unit>
+		<trans-unit id="close_by_click.description">
+			<source>Close InfoWindow by click instead of mouse out.</source>
+		<target></target></trans-unit>
+		<trans-unit id="configuration_map.description" approved="yes">
+			<source>Enter an address [street number, zip city] or coordinates [latitude,longitude] and press 'Update' or drag and drop the marker.</source>
+		<target state="translated">Entrez une adresse (numéro de la rue, ville, code postal) ou des coordonnées (latitude, longitude) et appuyez sur 'Mettre à jour', ou encore glissez et déposez le marqueur.</target></trans-unit>
+		<trans-unit id="image_height.description" approved="yes">
+			<source>Costum image height in pixel.</source>
+		<target state="translated">Hauteur personnalisée de l'image en pixels.</target></trans-unit>
+		<trans-unit id="image_size.description" approved="no">
+			<source>Check if the image has a different size then default. The image should be twice as large as indicated.</source>
+		<target state="needs-translation">Cocher si l'image a une taille différente que la taille par défaut.</target></trans-unit>
+		<trans-unit id="image_width.description" approved="yes">
+			<source>Costum image width in pixel.</source>
+		<target state="translated">Largeur personnalisées de l'image en pixels.</target></trans-unit>
+		<trans-unit id="info_window_content.description" approved="yes">
+			<source>This will be displayed in the InfoWindow of this marker.</source>
+		<target state="translated">Ceci sera affiché dans l'InfoWindow de ce marqueur.</target></trans-unit>
+		<trans-unit id="info_window_link.description">
+			<source>Attachs an optional automatic generated link to calculate a route on Google Maps.</source>
+		<target></target></trans-unit>
+		<trans-unit id="latitude.description" approved="yes">
+			<source>Please enter an address or coordinates on the position field above and press update.</source>
+		<target state="translated">Veuillez entrer une adresse ou des coordonnées sur le champ de position ci-dessus et appuyer sur mettre à jour.</target></trans-unit>
+		<trans-unit id="longitude.description" approved="yes">
+			<source>Please enter an address or coordinates on the position field above and press update.</source>
+		<target state="translated">Veuillez entrer une adresse ou des coordonnées sur le champ de position ci-dessus et appuyer sur mettre à jour.</target></trans-unit>
+		<trans-unit id="marker.description" approved="yes">
+			<source>Choose a costum image for the pin.</source>
+		<target state="translated">Choisir une image personnalisée pour le marqueur.</target></trans-unit>
+		<trans-unit id="open_by_click.description">
+			<source>Open InfoWindow by click instead of mouse over.</source>
+		<target></target></trans-unit>
+		<trans-unit id="opened.description">
+			<source>The InfoWindow is opened when the map appears. For each map there will be only one opened InfoWindow.</source>
+		<target></target></trans-unit>
+		</body>
+	</file>
+</xliff>

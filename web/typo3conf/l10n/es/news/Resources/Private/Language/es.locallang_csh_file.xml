@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="es" type="array">
+			<label index=".description">Registro del archivo</label>
+			<label index=".details">Relacion de archivo</label>
+			<label index="_.seeAlso">Véase también el sitio web http://www.news.com/</label>
+			<label index="hidden.description">Los elementos ocultos nunca se muestran en el frontend.</label>
+			<label index="title.description">Título opcional del archivo seleccionado</label>
+			<label index="description.description">Descripción opcional del archivo seleccionado</label>
+			<label index="file.description">Cualquier archivo (permitido).</label>
+		</languageKey>
+  </data>
+</T3locallangExt>

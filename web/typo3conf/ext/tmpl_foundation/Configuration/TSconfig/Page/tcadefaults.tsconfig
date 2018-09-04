@@ -1,0 +1,6 @@
+TCAdefaults {
+    tt_content {
+        image_zoom = 1
+        imagecols = 1
+    }
+}

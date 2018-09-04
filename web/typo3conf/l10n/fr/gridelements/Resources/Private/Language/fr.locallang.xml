@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="fr" type="array">
+			<label index="additionalStylesheet">Chemin vers le dossier contenant des feuilles de style additionnelles</label>
+			<label index="nestingInListModule">Activer l'imbrication dans le module liste</label>
+		</languageKey>
+  </data>
+</T3locallangExt>
