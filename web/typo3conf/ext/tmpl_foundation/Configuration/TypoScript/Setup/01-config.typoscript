@@ -7,7 +7,7 @@ config {
     extTarget = _blank
 
     sys_language_uid = 0
-    sys_language_mode = content_fallback
+    sys_language_mode = strict
     language = es
     htmlTag_langKey = es
     locale_all = es_ES.UTF-8
