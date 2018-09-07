@@ -14,14 +14,6 @@ page {
         viewport = width=device-width, initial-scale=1.0
     }
 
-    headerData {
-        10 = TEXT
-        10 {
-            field = nav_title // title
-            noTrimWrap = |<title>{$plugin.tx_tmplfoundation.settings.tagline} - |</title>|
-        }
-    }
-
     shortcutIcon = /favicon.ico
 
     includeCSS {
