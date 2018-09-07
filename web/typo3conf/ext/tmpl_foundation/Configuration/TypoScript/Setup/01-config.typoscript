@@ -44,6 +44,8 @@ instruccionesaldorso@gmail.com
                 wrap = <!--[if IE 9]># <![endif]-->
                 wrap.splitChar = #
             }
+            20 = TEXT
+            20.value = <html class="no-js" lang="es">
         }
     }
 }
