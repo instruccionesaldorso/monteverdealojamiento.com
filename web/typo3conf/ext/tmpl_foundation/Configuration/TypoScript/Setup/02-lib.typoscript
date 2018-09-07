@@ -1,4 +1,3 @@
-# Setting up logo
 lib {
     logo = IMAGE
     logo {
