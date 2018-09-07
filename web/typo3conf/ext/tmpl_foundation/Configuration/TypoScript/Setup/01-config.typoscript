@@ -16,7 +16,11 @@ config {
     tx_realurl_enable = 1
     prefixLocalAnchors = all
 
-    linkVars = L(0-1)
+    linkVars = L(0)
+    defaultGetVars {
+        L = 0
+    }
+
     #sys_language_overlay = hideNonTranslated
 
     absRefPrefix = /
