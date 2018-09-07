@@ -1,7 +1,7 @@
 plugin.tx_tmplfoundation {
     settings {
         frontendPids {
-            home = 34
+            home = 1
             contact = 12
             news = 11
             prices = 10
