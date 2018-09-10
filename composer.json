@@ -59,6 +59,7 @@
     "typo3-ter/vhs": "^5.0",
     "typo3-ter/gridelements": "^8.2",
     "typo3-ter/min": "^1.4",
+    "typo3-ter/rx-shariff": "^11.0",
     "typo3-ter/slick": "^4.0",
     "typo3-ter/jh-magnificpopup": "^1.0"
   },

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b6461315dff601a4c48c0540684c5dcc",
+    "content-hash": "a0ede1ad7415669597cd17089aa87856",
     "packages": [
         {
             "name": "cogpowered/finediff",
@@ -1930,6 +1930,42 @@
             "description": "Powermail is a well-known, editor-friendly, powerful\n        and easy to use mailform extension with a lots of features\n        (spam prevention, marketing information, optin, ajax submit, diagram analysis, etc...)",
             "homepage": "https://extensions.typo3.org/extension/powermail/",
             "time": "2018-07-16T14:14:52+00:00"
+        },
+        {
+            "name": "typo3-ter/rx-shariff",
+            "version": "11.0.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://extensions.typo3.org/extension/download/rx_shariff/11.0.2/zip/",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "php": ">= 7.0.0, <= 7.2.99",
+                "typo3/cms-core": ">= 7.6.0, <= 8.7.99"
+            },
+            "replace": {
+                "rx_shariff": "self.version",
+                "typo3-ter/rx_shariff": "self.version"
+            },
+            "type": "typo3-cms-extension",
+            "autoload": {
+                "psr-4": {
+                    "Reelworx\\RxShariff\\": "Classes/",
+                    "Heise\\Shariff\\": "Resources/Private/Shariff/src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Markus Klein",
+                    "email": "support@reelworx.at",
+                    "company": "Reelworx GmbH",
+                    "username": "liayn"
+                }
+            ],
+            "description": "Shariff implementation for TYPO3 CMS including the backend module, a viewhelper and a plugin.",
+            "homepage": "https://extensions.typo3.org/extension/rx_shariff/",
+            "time": "2018-05-16T11:51:32+00:00"
         },
         {
             "name": "typo3-ter/slick",
