@@ -1,0 +1,37 @@
+lib.contentElement = FLUIDTEMPLATE
+lib.contentElement {
+    settings {
+        gallery {
+            columnClass {
+                1 = small-18
+                2 = small-18 medium-9
+                3 = small-6
+            }
+        }
+    }
+}
+
+tt_content.textmedia >
+tt_content.textmedia =< lib.contentElement
+tt_content.textmedia {
+    templateName = TEXT
+    templateName.stdWrap.cObject = CASE
+    templateName.stdWrap.cObject {
+        key.field = imageorient
+        8 = TEXT
+        8.value = TextmediaBelow
+        25 = TEXT
+        25.value = TextmediaRight
+        26 = TEXT
+        26.value = TextmediaLeft
+        default = TEXT
+        default.value = TextmediaAbove
+    }
+
+    dataProcessing {
+        10 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
+        10 {
+            references.fieldName = assets
+        }
+    }
+}
