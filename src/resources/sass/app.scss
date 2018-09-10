@@ -4,12 +4,12 @@
 @import 'vendor/foundation/functions';
 
 $primary-color: #6C9D33;
-$menu-2-color: darkseagreen;
-$menu-3-color: mediumseagreen;
-$menu-4-color: yellowgreen;
+$menu-2-color: darkolivegreen;
+$menu-3-color: seagreen;
+$menu-4-color: mediumseagreen;
 $menu-8-color: darkseagreen;
-$menu-9-color: cadetblue;
-$menu-10-color: lightseagreen;
+$menu-9-color: lightskyblue;
+$menu-10-color: cadetblue;
 $menu-11-color: skyblue;
 $menu-12-color: steelblue;
 
@@ -19,6 +19,9 @@ $menu-12-color: steelblue;
 *, h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
   font-family: 'Roboto Condensed', sans-serif;
+}
+small, time {
+  font-size: rem-calc(14);
 }
 
 body {
@@ -198,6 +201,9 @@ body {
     hr {
       border: 1px solid $menu-12-color;
     }
+  }
+  .button:focus, .button:hover, button:focus, button:hover {
+    background-color: transparent;
   }
 }
 
