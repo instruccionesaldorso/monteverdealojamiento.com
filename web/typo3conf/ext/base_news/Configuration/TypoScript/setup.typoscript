@@ -12,10 +12,9 @@ plugin.tx_news {
             paginate {
                 itemsPerPage = 9
                 insertAbove = 0
-                templatePath = {$plugin.tx_news.view.templateRootPath}ViewHelpers/Widget/Paginate/Index.html
+                #templatePath = {$plugin.tx_news.view.templateRootPath}ViewHelpers/Widget/Paginate/Index.html
             }
         }
-        detail.showSocialShareButtons = 0
     }
     # Modify the translation
     _LOCAL_LANG {
