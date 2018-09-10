@@ -1,1 +1,3 @@
-plugin.tx_jhmagnificpopup.magnificpopup.support.user = .ce-row
+styles.content.textmedia.linkWrap.lightboxCssClass = magnificpopup th radius
+
+plugin.tx_jhmagnificpopup.magnificpopup.support.user = .row
