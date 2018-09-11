@@ -16,7 +16,6 @@ return [
     'EXT' => [
         'extConf' => [
             'backend' => 'a:5:{s:9:"loginLogo";s:52:"EXT:tmpl_foundation/Resources/Public/Images/logo.png";s:19:"loginHighlightColor";s:0:"";s:20:"loginBackgroundImage";s:0:"";s:11:"backendLogo";s:0:"";s:14:"backendFavicon";s:0:"";}',
-            'base_news' => 'a:0:{}',
             'base_powermail' => 'a:0:{}',
             'belog' => 'a:0:{}',
             'beuser' => 'a:0:{}',
