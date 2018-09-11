@@ -15,6 +15,7 @@ plugin.tx_news {
                 #templatePath = {$plugin.tx_news.view.templateRootPath}ViewHelpers/Widget/Paginate/Index.html
             }
         }
+        detail.showPrevNext = 1
     }
     # Modify the translation
     _LOCAL_LANG {
