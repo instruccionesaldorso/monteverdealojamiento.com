@@ -1,0 +1,69 @@
+{
+    "tt_content": {
+        "elements": {
+            "button": {
+                "label": "LLL:EXT:tmpl_foundation\/Resources\/Private\/Language\/locallang_be.xlf:button.title",
+                "key": "button",
+                "shortLabel": "",
+                "description": "LLL:EXT:tmpl_foundation\/Resources\/Private\/Language\/locallang_be.xlf:button.description",
+                "icon": "fa-external-link",
+                "color": "#2b6ba3",
+                "columns": [
+                    "header",
+                    "header_link",
+                    "header_position",
+                    "tx_mask_size"
+                ],
+                "labels": [
+                    "",
+                    "",
+                    "",
+                    "LLL:EXT:tmpl_foundation\/Resources\/Private\/Language\/locallang_be.xlf:button.fields.size"
+                ]
+            }
+        },
+        "sql": {
+            "tx_mask_size": {
+                "tt_content": {
+                    "tx_mask_size": "tinytext"
+                }
+            }
+        },
+        "tca": {
+            "tx_mask_size": {
+                "config": {
+                    "type": "select",
+                    "renderType": "selectSingle",
+                    "size": "",
+                    "items": [
+                        [
+                            "LLL:EXT:tmpl_foundation\/Resources\/Private\/Language\/locallang_be.xlf:button.fields.size.1",
+                            "tiny"
+                        ],
+                        [
+                            "LLL:EXT:tmpl_foundation\/Resources\/Private\/Language\/locallang_be.xlf:button.fields.size.2",
+                            "small"
+                        ],
+                        [
+                            "LLL:EXT:tmpl_foundation\/Resources\/Private\/Language\/locallang_be.xlf:button.fields.size.3",
+                            ""
+                        ],
+                        [
+                            "LLL:EXT:tmpl_foundation\/Resources\/Private\/Language\/locallang_be.xlf:button.fields.size.4",
+                            "large"
+                        ]
+                    ],
+                    "foreign_table": "",
+                    "foreign_table_where": "",
+                    "fileFolder": "",
+                    "fileFolder_extList": "",
+                    "fileFolder_recursions": "",
+                    "maxitems": "",
+                    "autoSizeMax": ""
+                },
+                "exclude": "1",
+                "key": "size"
+            }
+        }
+    }
+}

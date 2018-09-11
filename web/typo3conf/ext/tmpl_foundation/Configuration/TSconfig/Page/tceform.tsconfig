@@ -9,7 +9,6 @@ TCEFORM.tt_content {
             5 = <h5>
         }
     }
-    header_link.disabled = 1
     CType.removeItems = image,textpic,html,table,menu_abstract,menu_categorized_content,menu_categorized_pages,menu_pages,menu_subpages,menu_recently_updated,menu_related_pages,menu_section,menu_section_pages,menu_sitemap,menu_sitemap_pages,div,shortcut,slickcontent,slickitem,slickcarousel,slickcarousel2,slickcarousel3,slickgallery,slickgallery2,slickgallery3
     imageborder.disabled = 1
     imagecols.removeItems = 4,5,6,7,8

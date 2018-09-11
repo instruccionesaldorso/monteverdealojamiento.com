@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-01-03T09:00:00Z" product-name="tmpl_foundation">
+		<header/>
+		<body>
+			<trans-unit id="button.title" xml:space="preserve">
+				<source>Button</source>
+			</trans-unit>
+			<trans-unit id="button.description" xml:space="preserve">
+				<source>Creates a button</source>
+			</trans-unit>
+			<trans-unit id="button.fields.size">
+				<source>Size</source>
+			</trans-unit>
+			<trans-unit id="button.fields.size.1">
+				<source>Tiny</source>
+			</trans-unit>
+			<trans-unit id="button.fields.size.2">
+				<source>Small</source>
+			</trans-unit>
+			<trans-unit id="button.fields.size.3">
+				<source>Medium</source>
+			</trans-unit>
+			<trans-unit id="button.fields.size.4">
+				<source>Large</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
