@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a0ede1ad7415669597cd17089aa87856",
+    "content-hash": "28f4083eb2230cad6eeb8da041a70354",
     "packages": [
         {
             "name": "cogpowered/finediff",
@@ -1176,6 +1176,56 @@
                 "typo3 console"
             ],
             "time": "2017-12-13T13:52:52+00:00"
+        },
+        {
+            "name": "mask/mask",
+            "version": "v3.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Gernott/mask.git",
+                "reference": "1b777e0a8d59f011ac34146e1b8b11cd610634f1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Gernott/mask/zipball/1b777e0a8d59f011ac34146e1b8b11cd610634f1",
+                "reference": "1b777e0a8d59f011ac34146e1b8b11cd610634f1",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0",
+                "typo3/cms-core": "^8.7"
+            },
+            "replace": {
+                "mask": "self.version",
+                "typo3-ter/mask": "self.version"
+            },
+            "type": "typo3-cms-extension",
+            "autoload": {
+                "psr-4": {
+                    "MASK\\Mask\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "WEBprofil - Gernot Ploiner e.U.",
+                    "email": "office@webprofil.at",
+                    "homepage": "http://www.webprofil.at",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Create your own content elements and page templates. Easy to use, even without programming skills because of the comfortable drag and drop user interface. Stored in structured database tables. Style your frontend with Fluid tags. Ideal, if you want to switch from Templavoila.",
+            "homepage": "http://mask.webprofil.at/",
+            "keywords": [
+                "TYPO3 CMS",
+                "contentelements",
+                "mask",
+                "wizard"
+            ],
+            "time": "2018-08-03T16:27:47+00:00"
         },
         {
             "name": "mso/idna-convert",
