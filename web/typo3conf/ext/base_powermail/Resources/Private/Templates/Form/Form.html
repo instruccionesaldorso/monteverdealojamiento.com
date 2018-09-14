@@ -12,13 +12,12 @@
                 section="c{ttContentData.uid}"
                 name="field"
                 enctype="multipart/form-data"
-                additionalAttributes="{vh:Validation.EnableParsleyAndAjax(form:form)}"
+                data="{abide: ''}"
                 addQueryString="{settings.misc.addQueryString}">
 
             <f:if condition="{form.css} != 'nolabel'">
                 <h3>{form.title}</h3>
             </f:if>
-            <f:render partial="Misc/FormError" arguments="{_all}" />
 
             <f:for each="{form.pages}" as="page">
                 <f:render partial="Form/Page" arguments="{_all}" />

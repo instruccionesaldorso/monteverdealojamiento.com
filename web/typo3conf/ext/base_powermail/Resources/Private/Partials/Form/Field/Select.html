@@ -6,17 +6,18 @@
             <vh:Form.SelectField
                     options="{field.modifiedSettings}"
                     property="field{field.uid}"
-                    class="{settings.styles.framework.fieldClasses} {vh:Validation.ErrorClass(field:field, class:'powermail_field_error')}"
+                    class="{settings.styles.framework.fieldClasses}"
                     id="field{field.uid}"
                     additionalAttributes="{vh:Validation.ValidationDataAttribute(field:field)}"
                     multiple="{field.multiselectForField}"
                     value="{vh:Misc.PrefillField(field:field, mail:mail)}" />
-
-            <f:if condition="{field.multiselect}">
-                <f:if condition="{settings.validation.client}">
-                    <div class="powermail_field_error_container powermail_field_error_container_{field.marker}"></div>
-                </f:if>
-            </f:if>
         </label>
+        <f:if condition="{field.mandatory}">
+            <f:then>
+                <small class="error">
+                    <f:translate key="validationerror_mandatory" />
+                </small>
+            </f:then>
+        </f:if>
     </div>
 </div>

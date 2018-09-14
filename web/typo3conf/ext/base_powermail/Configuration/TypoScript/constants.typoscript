@@ -1,11 +1,14 @@
 plugin.tx_powermail {
-    settings.styles.bootstrap {
-        checkClasses = switch radius
-        fieldAndLabelWrappingClasses = small-18 medium-8 columns
-        fieldClasses =
-        labelClasses = right
-        numberOfColumns = 1
-        submitClasses = button radius
+    settings {
+        styles.bootstrap {
+            checkClasses = switch radius
+            fieldAndLabelWrappingClasses = small-18 medium-8 columns
+            fieldClasses =
+            labelClasses = right
+            numberOfColumns = 1
+            submitClasses = button radius
+        }
+        validation.client = 0
     }
     view {
         templateRootPath = EXT:base_powermail/Resources/Private/Templates/

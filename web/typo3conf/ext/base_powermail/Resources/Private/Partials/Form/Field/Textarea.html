@@ -10,6 +10,13 @@
                 placeholder="{field.placeholder}"
                 value="{vh:Misc.PrefillField(field:field, mail:mail)}"
                 additionalAttributes="{vh:Validation.ValidationDataAttribute(field:field)}"
-                class="{settings.styles.framework.fieldClasses} {vh:Validation.ErrorClass(field:field, class:'powermail_field_error')}" />
+                class="{settings.styles.framework.fieldClasses}" />
     </label>
+    <f:if condition="{field.mandatory}">
+        <f:then>
+            <small class="error">
+                <f:translate key="validationerror_mandatory" />
+            </small>
+        </f:then>
+    </f:if>
 </div>
