@@ -1,0 +1,15 @@
+{namespace vh=In2code\Powermail\ViewHelpers}
+
+<f:render partial="Form/FieldLabel" arguments="{_all}" />
+
+<div class="{settings.styles.framework.fieldAndLabelWrappingClasses}">
+    <f:form.textarea
+            cols="20"
+            rows="5"
+            id="field{field.uid}"
+            property="field{field.uid}"
+            placeholder="{field.placeholder}"
+            value="{vh:Misc.PrefillField(field:field, mail:mail)}"
+            additionalAttributes="{vh:Validation.ValidationDataAttribute(field:field)}"
+            class="{settings.styles.framework.fieldClasses} {vh:Validation.ErrorClass(field:field, class:'powermail_field_error')}" />
+</div>

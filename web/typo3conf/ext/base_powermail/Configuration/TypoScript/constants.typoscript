@@ -1,4 +1,12 @@
-plugin.tx_basepowermail {
+plugin.tx_powermail {
+    settings.styles.bootstrap {
+        checkClasses = switch radius
+        fieldAndLabelWrappingClasses = small-18 medium-12 columns
+        fieldClasses =
+        labelClasses = right
+        numberOfColumns = 1
+        submitClasses = button radius
+    }
     view {
         templateRootPath = EXT:base_powermail/Resources/Private/Templates/
         partialRootPath = EXT:base_powermail/Resources/Private/Partials/
