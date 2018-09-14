@@ -1,15 +1,15 @@
 {namespace vh=In2code\Powermail\ViewHelpers}
 
-<f:render partial="Form/FieldLabel" arguments="{_all}" />
-
 <div class="{settings.styles.framework.fieldAndLabelWrappingClasses}">
     <div class="{settings.styles.framework.fieldWrappingClasses}">
-        <f:form.textfield
-                type="{field.datepickerSettingsOptimized}"
-                id="field{field.uid}"
-                property="{field.marker}"
-                value="{vh:Misc.PrefillField(field:field, mail:mail)}"
-                additionalAttributes="{vh:Validation.DatepickerDataAttribute(field:field, value:'{vh:Misc.PrefillField(field:field)}')}"
-                class="{settings.styles.framework.fieldClasses} {vh:Validation.ErrorClass(field:field, class:'powermail_field_error')}" />
+        <label><vh:string.escapeLabels>{field.title}</vh:string.escapeLabels> <f:if condition="{field.mandatory}"><span class="mandatory">*</span></f:if>
+            <f:form.textfield
+                    type="{field.datepickerSettingsOptimized}"
+                    id="field{field.uid}"
+                    property="{field.marker}"
+                    value="{vh:Misc.PrefillField(field:field, mail:mail)}"
+                    additionalAttributes="{vh:Validation.DatepickerDataAttribute(field:field, value:'{vh:Misc.PrefillField(field:field)}')}"
+                    class="{settings.styles.framework.fieldClasses} {vh:Validation.ErrorClass(field:field, class:'powermail_field_error')}" />
+        </label>
     </div>
 </div>

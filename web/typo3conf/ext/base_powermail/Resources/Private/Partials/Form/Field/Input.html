@@ -1,14 +1,14 @@
 {namespace vh=In2code\Powermail\ViewHelpers}
 
-<f:render partial="Form/FieldLabel" arguments="{_all}" />
-
 <div class="{settings.styles.framework.fieldAndLabelWrappingClasses}">
-    <f:form.textfield
-            type="{vh:Validation.FieldTypeFromValidation(field:field)}"
-            property="field{field.uid}"
-            placeholder="{field.placeholder}"
-            value="{vh:Misc.PrefillField(field:field, mail:mail)}"
-            class="{vh:Validation.ErrorClass(field:field, class:'powermail_field_error')}"
-            additionalAttributes="{vh:Validation.ValidationDataAttribute(field:field)}"
-            id="field{field.uid}" />
+    <label><vh:string.escapeLabels>{field.title}</vh:string.escapeLabels> <f:if condition="{field.mandatory}"><span class="mandatory">*</span></f:if>
+        <f:form.textfield
+                type="{vh:Validation.FieldTypeFromValidation(field:field)}"
+                property="field{field.uid}"
+                placeholder="{field.placeholder}"
+                value="{vh:Misc.PrefillField(field:field, mail:mail)}"
+                class="{vh:Validation.ErrorClass(field:field, class:'powermail_field_error')}"
+                additionalAttributes="{vh:Validation.ValidationDataAttribute(field:field)}"
+                id="field{field.uid}" />
+    </label>
 </div>

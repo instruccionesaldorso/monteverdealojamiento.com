@@ -1,7 +1,7 @@
 plugin.tx_powermail {
     settings.styles.bootstrap {
         checkClasses = switch radius
-        fieldAndLabelWrappingClasses = small-18 medium-12 columns
+        fieldAndLabelWrappingClasses = small-18 medium-8 columns
         fieldClasses =
         labelClasses = right
         numberOfColumns = 1
