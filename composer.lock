@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6401f3d3acb77e588d928fc2322b0550",
+    "content-hash": "1f0a8658cce17f1a35dd8281ef8d2ba3",
     "packages": [
         {
             "name": "cogpowered/finediff",
@@ -1878,6 +1878,42 @@
             "description": "Extends TYPO3s compressor for JS and CSS with minifier. This may save you up to 60% of default compressed file size. Also compresses HTML output of TYPO3. Full composer support.",
             "homepage": "https://extensions.typo3.org/extension/min/",
             "time": "2018-04-28T21:33:22+00:00"
+        },
+        {
+            "name": "typo3-ter/pagenotfoundhandling",
+            "version": "2.4.6",
+            "dist": {
+                "type": "zip",
+                "url": "https://extensions.typo3.org/extension/download/pagenotfoundhandling/2.4.6/zip/",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "typo3/cms-core": ">= 6.2.1, <= 8.7.999"
+            },
+            "replace": {
+                "pagenotfoundhandling": "self.version"
+            },
+            "suggest": {
+                "typo3-ter/realurl": ">= 1.12.8"
+            },
+            "type": "typo3-cms-extension",
+            "autoload": {
+                "psr-4": {
+                    "AawTeam\\Pagenotfoundhandling\\": "Classes/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Agentur am Wasser  Maeder & Partner AG",
+                    "email": "development@agenturamwasser.ch",
+                    "company": "",
+                    "username": "christian.futterlieb"
+                }
+            ],
+            "description": "Highly configurable 404 page handling. Supports multi domain systems with multiple languages.",
+            "homepage": "https://extensions.typo3.org/extension/pagenotfoundhandling/",
+            "time": "2018-05-16T12:06:05+00:00"
         },
         {
             "name": "typo3-ter/powermail",
