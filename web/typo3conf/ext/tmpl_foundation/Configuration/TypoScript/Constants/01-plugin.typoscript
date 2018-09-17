@@ -4,13 +4,8 @@ plugin.tx_tmplfoundation {
             home = 1
             contact = 12
             news = 11
-            prices = 10
         }
         logoTitle = Ir a la ṕagina de inicio
-        meta {
-            description = Monte Verde Cabañas y Camping
-            keywords = Monte Verde Cabañas y Camping
-        }
         tagline = Monte Verde Cabañas y Camping
     }
     view {

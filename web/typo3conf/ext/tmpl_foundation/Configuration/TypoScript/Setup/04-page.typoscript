@@ -3,14 +3,9 @@ page {
     typeNum = 0
 
     meta {
-        description {
-            field = description
-            ifEmpty = {$plugin.tx_tmplfoundation.settings.meta.description}
-        }
-        keywords {
-            field = keywords
-            ifEmpty = {$plugin.tx_tmplfoundation.settings.meta.keywords}
-        }
+        keywords.data = levelfield:-1,keywords,slide
+        description.data = levelfield:-1,description,slide
+        abstract.data = levelfield:-1, abstract, slide
         viewport = width=device-width, initial-scale=1.0
     }
 
@@ -69,7 +64,6 @@ page {
                 home = {$plugin.tx_tmplfoundation.settings.frontendPids.home}
                 news = {$plugin.tx_tmplfoundation.settings.frontendPids.news}
                 contact = {$plugin.tx_tmplfoundation.settings.frontendPids.contact}
-                prices = {$plugin.tx_tmplfoundation.settings.frontendPids.prices}
             }
         }
     }

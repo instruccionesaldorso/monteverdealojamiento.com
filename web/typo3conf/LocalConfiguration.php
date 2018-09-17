@@ -64,6 +64,7 @@ return [
         ],
     ],
     'FE' => [
+        'addRootLineFields' => 'keywords,description',
         'debug' => '',
         'loginSecurityLevel' => 'rsa',
     ],
