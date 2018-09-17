@@ -1,5 +1,6 @@
 TCAdefaults {
     tt_content {
+        header_layout = 2
         image_zoom = 1
         imagecols = 1
     }

@@ -1,13 +1,13 @@
 TCEFORM.tt_content {
     header_layout {
         altLabels {
-            0 = Default (<h2>)
             1 = <h1>
             2 = <h2>
             3 = <h3>
             4 = <h4>
             5 = <h5>
         }
+        removeItems = 0
     }
     CType.removeItems = image,textpic,html,table,menu_abstract,menu_categorized_content,menu_categorized_pages,menu_pages,menu_subpages,menu_recently_updated,menu_related_pages,menu_section,menu_section_pages,menu_sitemap,menu_sitemap_pages,div,shortcut,slickcontent,slickitem,slickcarousel,slickcarousel2,slickcarousel3,slickgallery,slickgallery2,slickgallery3
     imageborder.disabled = 1
