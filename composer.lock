@@ -4,8 +4,60 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c05cd7e21bc2980dbcdb778bc97678ae",
+    "content-hash": "bfc5f669850c115e34db9995ec15bfa4",
     "packages": [
+        {
+            "name": "aaw-team/pagenotfoundhandling",
+            "version": "2.4.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aaw-team/pagenotfoundhandling.git",
+                "reference": "d5cb9b2fbae0e503db135df2019d5951659584be"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aaw-team/pagenotfoundhandling/zipball/d5cb9b2fbae0e503db135df2019d5951659584be",
+                "reference": "d5cb9b2fbae0e503db135df2019d5951659584be",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "^6.2.1|^7.6|^8.7"
+            },
+            "replace": {
+                "pagenotfoundhandling": "self.version",
+                "typo3-ter/pagenotfoundhandling": "self.version"
+            },
+            "type": "typo3-cms-extension",
+            "autoload": {
+                "psr-4": {
+                    "AawTeam\\Pagenotfoundhandling\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Agentur am Wasser Team",
+                    "email": "development@agenturamwasser.ch",
+                    "homepage": "https://web.agenturamwasser.ch/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "404 Page not found handling",
+            "homepage": "https://github.com/aaw-team/pagenotfoundhandling",
+            "keywords": [
+                "403",
+                "404",
+                "page not found",
+                "page not found handling",
+                "page unavailable handling",
+                "pageNotFound_handling",
+                "typo3"
+            ],
+            "time": "2018-05-16T09:54:46+00:00"
+        },
         {
             "name": "cogpowered/finediff",
             "version": "0.3.1",
@@ -1110,6 +1162,120 @@
             "time": "2017-12-13T13:52:52+00:00"
         },
         {
+            "name": "in2code/powermail",
+            "version": "6.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/einpraegsam/powermail.git",
+                "reference": "7b7874f7fbf5ed8c7e71ad20b0419a67f97ec691"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/einpraegsam/powermail/zipball/7b7874f7fbf5ed8c7e71ad20b0419a67f97ec691",
+                "reference": "7b7874f7fbf5ed8c7e71ad20b0419a67f97ec691",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": ">=8.7.0 <10.0.0"
+            },
+            "replace": {
+                "powermail": "self.version",
+                "typo3-ter/powermail": "self.version"
+            },
+            "require-dev": {
+                "behat/behat": "^3.4",
+                "behat/mink-extension": "^2.1",
+                "behat/mink-goutte-driver": "^1.2",
+                "behat/mink-selenium2-driver": "^1.3",
+                "mikey179/vfsstream": "^1.4",
+                "nimut/testing-framework": "^1.0",
+                "phpunit/phpunit": "^4.7 || ^5.0",
+                "se/selenium-server-standalone": "^2.0"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "cms-package-dir": "{$vendor-dir}/typo3/cms",
+                    "web-dir": ".Build/Web"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "In2code\\Powermail\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Alex Kellner",
+                    "email": "alexander.kellner@in2code.de"
+                }
+            ],
+            "description": "Powermail is a well-known, editor-friendly, powerful and easy to use mailform extension with a lots of features",
+            "homepage": "https://github.com/einpraegsam/powermail",
+            "keywords": [
+                "form",
+                "mailform",
+                "spamprevention",
+                "typo3"
+            ],
+            "time": "2018-07-16T09:56:22+00:00"
+        },
+        {
+            "name": "in2code/powermail_cond",
+            "version": "5.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/einpraegsam/powermail_cond.git",
+                "reference": "80ffb632ece558b03c72c9c7c6e7cce5a1b598db"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/einpraegsam/powermail_cond/zipball/80ffb632ece558b03c72c9c7c6e7cce5a1b598db",
+                "reference": "80ffb632ece558b03c72c9c7c6e7cce5a1b598db",
+                "shasum": ""
+            },
+            "require": {
+                "in2code/powermail": ">=5.0.0 <7.0.0"
+            },
+            "replace": {
+                "powermail_cond": "self.version",
+                "typo3-ter/powermail-cond": "self.version"
+            },
+            "type": "typo3-cms-extension",
+            "autoload": {
+                "psr-4": {
+                    "In2code\\PowermailCond\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Oliver Eglseder",
+                    "email": "oliver.eglseder@in2code.de"
+                },
+                {
+                    "name": "Alex Kellner",
+                    "email": "alexander.kellner@in2code.de"
+                }
+            ],
+            "description": "Add conditions (via AJAX) to powermail forms for fields and pages",
+            "homepage": "https://github.com/einpraegsam/powermail_cond",
+            "keywords": [
+                "form",
+                "mailform",
+                "spamprevention",
+                "typo3"
+            ],
+            "time": "2018-05-24T14:05:10+00:00"
+        },
+        {
             "name": "mask/mask",
             "version": "v3.3.1",
             "source": {
@@ -1878,115 +2044,6 @@
             "description": "Extends TYPO3s compressor for JS and CSS with minifier. This may save you up to 60% of default compressed file size. Also compresses HTML output of TYPO3. Full composer support.",
             "homepage": "https://extensions.typo3.org/extension/min/",
             "time": "2018-04-28T21:33:22+00:00"
-        },
-        {
-            "name": "typo3-ter/pagenotfoundhandling",
-            "version": "2.4.6",
-            "dist": {
-                "type": "zip",
-                "url": "https://extensions.typo3.org/extension/download/pagenotfoundhandling/2.4.6/zip/",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "typo3/cms-core": ">= 6.2.1, <= 8.7.999"
-            },
-            "replace": {
-                "pagenotfoundhandling": "self.version"
-            },
-            "suggest": {
-                "typo3-ter/realurl": ">= 1.12.8"
-            },
-            "type": "typo3-cms-extension",
-            "autoload": {
-                "psr-4": {
-                    "AawTeam\\Pagenotfoundhandling\\": "Classes/"
-                }
-            },
-            "authors": [
-                {
-                    "name": "Agentur am Wasser  Maeder & Partner AG",
-                    "email": "development@agenturamwasser.ch",
-                    "company": "",
-                    "username": "christian.futterlieb"
-                }
-            ],
-            "description": "Highly configurable 404 page handling. Supports multi domain systems with multiple languages.",
-            "homepage": "https://extensions.typo3.org/extension/pagenotfoundhandling/",
-            "abandoned": "aaw-team/pagenotfoundhandling",
-            "time": "2018-05-16T12:06:05+00:00"
-        },
-        {
-            "name": "typo3-ter/powermail",
-            "version": "6.1.0",
-            "dist": {
-                "type": "zip",
-                "url": "https://extensions.typo3.org/extension/download/powermail/6.1.0/zip/",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "php": ">= 7.0.0, <= 7.99.99",
-                "typo3/cms-core": ">= 8.7.0, <= 9.99.99"
-            },
-            "replace": {
-                "powermail": "self.version"
-            },
-            "type": "typo3-cms-extension",
-            "autoload": {
-                "psr-4": {
-                    "In2code\\Powermail\\": "Classes/"
-                }
-            },
-            "authors": [
-                {
-                    "name": "Powermail Development Team",
-                    "email": "alexander.kellner@in2code.de",
-                    "company": "in2code.de",
-                    "username": "wunschtacho"
-                }
-            ],
-            "description": "Powermail is a well-known, editor-friendly, powerful\n        and easy to use mailform extension with a lots of features\n        (spam prevention, marketing information, optin, ajax submit, diagram analysis, etc...)",
-            "homepage": "https://extensions.typo3.org/extension/powermail/",
-            "abandoned": "in2code/powermail",
-            "time": "2018-07-16T14:14:52+00:00"
-        },
-        {
-            "name": "typo3-ter/powermail-cond",
-            "version": "5.0.0",
-            "dist": {
-                "type": "zip",
-                "url": "https://extensions.typo3.org/extension/download/powermail_cond/5.0.0/zip/",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "php": ">= 7.0.0, <= 7.99.99",
-                "typo3-ter/powermail": ">= 5.0.0, <= 6.99.99",
-                "typo3/cms-core": ">= 8.7.0, <= 9.99.99"
-            },
-            "replace": {
-                "powermail_cond": "self.version",
-                "typo3-ter/powermail_cond": "self.version"
-            },
-            "type": "typo3-cms-extension",
-            "autoload": {
-                "psr-4": {
-                    "In2code\\PowermailCond\\": "Classes/"
-                }
-            },
-            "authors": [
-                {
-                    "name": "Alex Kellner",
-                    "email": "alexander.kellner@in2code.de",
-                    "company": "in2code.de",
-                    "username": "wunschtacho"
-                }
-            ],
-            "description": "Add conditions (via AJAX) to powermail forms for fields and pages",
-            "homepage": "https://extensions.typo3.org/extension/powermail_cond/",
-            "abandoned": "in2code/powermail_cond",
-            "time": "2018-05-25T12:04:58+00:00"
         },
         {
             "name": "typo3-ter/slick",
