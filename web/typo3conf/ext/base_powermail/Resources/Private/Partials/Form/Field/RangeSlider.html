@@ -4,14 +4,14 @@
     <label><vh:string.escapeLabels>{field.title}</vh:string.escapeLabels> <f:if condition="{field.mandatory}"><span class="mandatory">*</span></f:if>
         <div class="row">
             <div class="small-16 columns">
-                <div class="range-slider radius" data-slider data-options="start: 1; end: 25;display_selector: #sliderOutput3">
+                <div class="range-slider radius" data-slider data-options="start: 1; end: {vh:Misc.PrefillField(field:field, mail:mail)}; initial: 1; display_selector: #slider{field.uid}">
                     <span class="range-slider-handle" role="slider" tabindex="0"></span>
                     <span class="range-slider-active-segment"></span>
                     <f:form.hidden id="field{field.uid}" name="field[{field.uid}]" value="{vh:Misc.PrefillField(field: '{field}')}" />
                 </div>
             </div>
             <div class="small-2 columns">
-                <span id="sliderOutput3"></span>
+                <span id="slider{field.uid}"></span>
             </div>
         </div>
     </label>
