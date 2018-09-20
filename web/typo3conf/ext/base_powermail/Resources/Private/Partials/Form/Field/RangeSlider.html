@@ -1,6 +1,6 @@
 {namespace vh=In2code\Powermail\ViewHelpers}
 
-<div class="{settings.styles.framework.fieldAndLabelWrappingClasses}">
+<div class="powermail_fieldwrap_{field.marker} {settings.styles.framework.fieldAndLabelWrappingClasses}">
     <label><vh:string.escapeLabels>{field.title}</vh:string.escapeLabels> <f:if condition="{field.mandatory}"><span class="mandatory">*</span></f:if>
         <div class="row">
             <div class="small-16 columns">

@@ -1,6 +1,6 @@
 {namespace vh=In2code\Powermail\ViewHelpers}
 
-<div class="{settings.styles.framework.fieldAndLabelWrappingClasses}">
+<div class="powermail_fieldwrap_{field.marker} {settings.styles.framework.fieldAndLabelWrappingClasses}">
     <label><vh:string.escapeLabels>{field.title}</vh:string.escapeLabels> <f:if condition="{field.mandatory}"><span class="mandatory">*</span></f:if>
         <f:form.textarea
                 cols="20"
@@ -10,7 +10,7 @@
                 placeholder="{field.placeholder}"
                 value="{vh:Misc.PrefillField(field:field, mail:mail)}"
                 additionalAttributes="{vh:Validation.ValidationDataAttribute(field:field)}"
-                class="{settings.styles.framework.fieldClasses}" />
+                class="powermail_textarea {settings.styles.framework.fieldClasses}" />
     </label>
     <f:if condition="{field.mandatory}">
         <f:then>
