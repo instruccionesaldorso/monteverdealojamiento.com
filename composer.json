@@ -55,7 +55,7 @@
     "dmitryd/typo3-realurl": "^2.4",
     "helhum/typo3-console": "^5.5",
     "typo3-console/composer-auto-commands": "^0.2",
-    "typo3-ter/vhs": "^5.0",
+    "typo3-ter/vhs": "^5.1",
     "typo3-ter/gridelements": "^8.2",
     "typo3-ter/min": "^1.4",
     "typo3-ter/slick": "^4.0",

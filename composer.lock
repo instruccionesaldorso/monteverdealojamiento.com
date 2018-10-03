@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bfc5f669850c115e34db9995ec15bfa4",
+    "content-hash": "47aff01f10535b534eebc8159fb9d403",
     "packages": [
         {
             "name": "aaw-team/pagenotfoundhandling",
@@ -2089,16 +2089,16 @@
         },
         {
             "name": "typo3-ter/vhs",
-            "version": "5.0.1",
+            "version": "5.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://extensions.typo3.org/extension/download/vhs/5.0.1/zip/",
+                "url": "https://extensions.typo3.org/extension/download/vhs/5.1.0/zip/",
                 "reference": null,
                 "shasum": null
             },
             "require": {
                 "php": ">= 7.0.0, <= 7.2.99",
-                "typo3/cms-core": ">= 8.7.0, <= 9.3.99"
+                "typo3/cms-core": ">= 8.7.0, <= 9.5.99"
             },
             "replace": {
                 "vhs": "self.version"
@@ -2119,7 +2119,7 @@
             ],
             "description": "A collection of ViewHelpers to perform rendering tasks which are not natively supported by Fluid - for example: advanced formatters, math calculators, specialized conditions and Iterator/Array calculators and processors",
             "homepage": "https://extensions.typo3.org/extension/vhs/",
-            "time": "2018-06-21T17:40:58+00:00"
+            "time": "2018-10-02T19:55:03+00:00"
         },
         {
             "name": "typo3/class-alias-loader",
