@@ -442,6 +442,12 @@ ul.social li a {
   }
 }
 
+footer {
+  color: #fff;
+  background-color: #222;
+  padding: 10px 0px;
+}
+
 @media only screen and (max-width: 40em) {
   ul.social li a i {
     font-size: rem-calc(23);

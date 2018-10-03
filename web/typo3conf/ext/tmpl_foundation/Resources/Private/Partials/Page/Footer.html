@@ -1,10 +1,25 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
       data-namespace-typo3-fluid="true">
 
-    <footer class="row">
-        <div class="small-18 columns">
-            <hr>
-            Copyright © <f:cObject typoscriptObjectPath="lib.getYear"/> <i class="fi-web"></i> <f:link.email email="instruccionesaldorso@gmail.com">Sergio Catalá</f:link.email> | <i class="fi-camera"></i> Eliana Gamboa & Wiglius de Bie
+    <footer>
+        <div class="row">
+            <div class="small-18 medium-9 columns">
+                <div class="text-left">
+                    <div class="left">
+                        <f:render partial="SocialBar" />
+                    </div>
+                    <div class="right">
+                        <f:link.typolink parameter="{settings.frontendPids.contact}" class="button radius medium">
+                            <f:translate key="template.footer.contact" extensionName="tmpl_foundation" />
+                        </f:link.typolink>
+                    </div>
+                </div>
+            </div>
+            <div class="small-18 medium-9 columns"
+                <div class="right">
+                    <small>Copyright © <f:cObject typoscriptObjectPath="lib.getYear"/> <i class="fi-web"></i> Sergio Catalá | <i class="fi-camera"></i> Eliana Gamboa & Wiglius de Bie</small>
+                </div>
+            </div>
         </div>
     </footer>
 
